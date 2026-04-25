@@ -54,7 +54,8 @@ export const PRODUCTS: Product[] = [
       '/IMG-20260424-WA0250.jpg',
       '/IMG-20260424-WA0246.jpg',
       '/IMG-20260424-WA0252.jpg',
-      '/IMG-20260424-WA0247.jpg'
+      '/IMG-20260424-WA0247.jpg',
+      '/IMG-20260423-WA0248.jpg'
     ], 
     stock: 3, 
     colors: ['Dourado'],
@@ -69,7 +70,9 @@ export const PRODUCTS: Product[] = [
     images: [
       '/IMG-20260424-WA0262.jpg',
       '/IMG-20260424-WA0264.jpg',
-      '/IMG-20260424-WA0266.jpg'
+      '/IMG-20260424-WA0266.jpg',
+      '/IMG-20260423-WA0263.jpg',
+      '/IMG-20260423-WA0265.jpg'
     ], 
     stock: 3, 
     colors: ['Dourado'],
@@ -143,7 +146,14 @@ export const PRODUCTS: Product[] = [
     name: 'Colar charms', 
     price: 140.90, 
     category: 'Colares', 
-    images: ['/IMG-20260424-WA0008.jpg', '/IMG-20260424-WA0072.jpg'], 
+    images: [
+      '/IMG-20260424-WA0008.jpg',
+      '/IMG-20260424-WA0072.jpg',
+      '/IMG-20260423-WA0024.jpg',
+      '/IMG-20260423-WA0031.jpg',
+      '/IMG-20260423-WA0033.jpg',
+      '/IMG-20260423-WA0035.jpg'
+    ], 
     stock: 3, 
     colors: ['Dourado'],
     description: 'Um colar lúdico e cheio de encantos. Com pingentes variados que trazem movimento e personalidade para o seu mix de colares. Perfeito para quem ama acessórios com história e significados.',
@@ -189,7 +199,15 @@ export const PRODUCTS: Product[] = [
     name: 'Colar gravatinha medalhas', 
     price: 86.90, 
     category: 'Colares', 
-    images: ['/IMG-20260424-WA0005.jpg', '/IMG-20260424-WA0003.jpg', '/IMG-20260424-WA0078.jpg', '/IMG-20260424-WA0081.jpg'], 
+    images: [
+      '/IMG-20260424-WA0005.jpg',
+      '/IMG-20260424-WA0003.jpg',
+      '/IMG-20260424-WA0078.jpg',
+      '/IMG-20260424-WA0081.jpg',
+      '/IMG-20260423-WA0037.jpg',
+      '/IMG-20260423-WA0040.jpg',
+      '/IMG-20260423-WA0043.jpg'
+    ], 
     stock: 2, 
     colors: ['Dourado'],
     imageStyle: 'scale-[1.8]'
@@ -279,7 +297,15 @@ export const PRODUCTS: Product[] = [
     price: 98.90, 
     category: 'Colares', 
     subcategory: 'Chokers', 
-    images: ['/IMG-20260424-WA0006.jpg', '/IMG-20260424-WA0083.jpg', '/IMG-20260424-WA0084.jpg'], 
+    images: [
+      '/IMG-20260424-WA0006.jpg',
+      '/IMG-20260424-WA0083.jpg',
+      '/IMG-20260424-WA0084.jpg',
+      '/IMG-20260423-WA0050.jpg',
+      '/IMG-20260423-WA0052.jpg',
+      '/IMG-20260423-WA0054.jpg',
+      '/IMG-20260423-WA0056.jpg'
+    ], 
     stock: 3, 
     colors: ['Dourado'] 
   },
@@ -333,7 +359,9 @@ export const PRODUCTS: Product[] = [
       '/IMG-20260424-WA0140.jpg',
       '/IMG-20260424-WA0144.jpg',
       '/IMG-20260424-WA0139.jpg',
-      '/IMG-20260424-WA0135.jpg'
+      '/IMG-20260424-WA0135.jpg',
+      '/IMG-20260423-WA0137.jpg',
+      '/IMG-20260423-WA0143.jpg'
     ], 
     stock: 1, 
     colors: ['Dourado'],
@@ -349,7 +377,8 @@ export const PRODUCTS: Product[] = [
       '/IMG-20260424-WA0140.jpg',
       '/IMG-20260424-WA0144.jpg',
       '/IMG-20260424-WA0145.jpg',
-      '/IMG-20260424-WA0146.jpg'
+      '/IMG-20260424-WA0146.jpg',
+      '/IMG-20260423-WA0143.jpg'
     ], 
     stock: 3, 
     colors: ['Dourado'],
@@ -386,7 +415,8 @@ export const PRODUCTS: Product[] = [
     images: [
       '/IMG-20260424-WA0163.jpg',
       '/IMG-20260424-WA0167.jpg',
-      '/IMG-20260424-WA0169.jpg'
+      '/IMG-20260424-WA0169.jpg',
+      '/IMG-20260423-WA0168.jpg'
     ], 
     stock: 3, 
     colors: ['Dourado', 'Prata'],
@@ -425,7 +455,8 @@ export const PRODUCTS: Product[] = [
     category: 'Pulseiras', 
     images: [
       '/IMG-20260424-WA0167.jpg',
-      '/IMG-20260424-WA0169.jpg'
+      '/IMG-20260424-WA0169.jpg',
+      '/IMG-20260423-WA0168.jpg'
     ], 
     stock: 1, 
     colors: ['Dourado'],
@@ -442,7 +473,8 @@ export const PRODUCTS: Product[] = [
       '/IMG-20260424-WA0172.jpg',
       '/IMG-20260424-WA0173.jpg',
       '/IMG-20260424-WA0176.jpg',
-      '/IMG-20260424-WA0178.jpg'
+      '/IMG-20260424-WA0178.jpg',
+      '/IMG-20260423-WA0174.jpg'
     ], 
     stock: 2, 
     colors: ['Dourado', 'Prata'],
@@ -520,7 +552,8 @@ export const PRODUCTS: Product[] = [
       '/IMG-20260424-WA0294.jpg',
       '/IMG-20260424-WA0293.jpg',
       '/IMG-20260423-WA0299.jpg',
-      '/IMG-20260423-WA0295.jpg'
+      '/IMG-20260423-WA0295.jpg',
+      '/IMG-20260423-WA0297.jpg'
     ], 
     stock: 3, 
     colors: ['Prata'],
@@ -558,7 +591,12 @@ export const PRODUCTS: Product[] = [
     name: 'Trio Coração Cravejado', 
     price: 168.90, 
     category: 'Brincos', 
-    images: ['/IMG-20260424-WA0353.jpg', '/IMG-20260424-WA0355.jpg'], 
+    images: [
+      '/IMG-20260424-WA0353.jpg',
+      '/IMG-20260424-WA0355.jpg',
+      '/IMG-20260423-WA0353.jpg',
+      '/IMG-20260423-WA0355.jpg'
+    ], 
     stock: 2, 
     colors: ['Dourado', 'Prata'],
     colorImages: {
@@ -656,7 +694,12 @@ export const PRODUCTS: Product[] = [
     name: 'Duo argolinha pedra turquesa', 
     price: 79.90, 
     category: 'Brincos', 
-    images: ['/IMG-20260424-WA0208.jpg', '/IMG-20260424-WA0209.jpg', '/IMG-20260424-WA0205.jpg'], 
+    images: [
+      '/IMG-20260424-WA0208.jpg',
+      '/IMG-20260424-WA0209.jpg',
+      '/IMG-20260424-WA0205.jpg',
+      '/IMG-20260423-WA0206.jpg'
+    ], 
     stock: 2, 
     colors: ['Prata'] 
   },
@@ -707,7 +750,9 @@ export const PRODUCTS: Product[] = [
     images: [
       '/IMG-20260424-WA0266.jpg',
       '/IMG-20260424-WA0262.jpg',
-      '/IMG-20260424-WA0264.jpg'
+      '/IMG-20260424-WA0264.jpg',
+      '/IMG-20260423-WA0263.jpg',
+      '/IMG-20260423-WA0265.jpg'
     ], 
     stock: 2, 
     colors: ['Prata'],
@@ -720,7 +765,9 @@ export const PRODUCTS: Product[] = [
     category: 'Brincos', 
     images: [
       '/IMG-20260424-WA0353.jpg',
-      '/IMG-20260424-WA0355.jpg'
+      '/IMG-20260424-WA0355.jpg',
+      '/IMG-20260423-WA0353.jpg',
+      '/IMG-20260423-WA0355.jpg'
     ], 
     stock: 1, 
     colors: ['Dourado'],
@@ -735,7 +782,9 @@ export const PRODUCTS: Product[] = [
     images: [
       '/IMG-20260424-WA0283.jpg',
       '/IMG-20260424-WA0280.jpg',
-      '/IMG-20260424-WA0285.jpg'
+      '/IMG-20260424-WA0285.jpg',
+      '/IMG-20260423-WA0282.jpg',
+      '/IMG-20260423-WA0284.jpg'
     ], 
     stock: 2, 
     colors: ['Dourado', 'Prata'],
@@ -763,7 +812,8 @@ export const PRODUCTS: Product[] = [
     images: [
       '/IMG-20260424-WA0298.jpg',
       '/IMG-20260424-WA0301.jpg',
-      '/IMG-20260424-WA0303.jpg'
+      '/IMG-20260424-WA0303.jpg',
+      '/IMG-20260423-WA0299.jpg'
     ], 
     stock: 2, 
     colors: ['Dourado', 'Prata'],
@@ -807,7 +857,8 @@ export const PRODUCTS: Product[] = [
     images: [
       '/IMG-20260424-WA0330.jpg',
       '/IMG-20260424-WA0328.jpg',
-      '/IMG-20260424-WA0326.jpg'
+      '/IMG-20260424-WA0326.jpg',
+      '/IMG-20260423-WA0329.jpg'
     ], 
     stock: 2, 
     colors: ['Dourado'],
@@ -858,7 +909,12 @@ export const PRODUCTS: Product[] = [
     name: 'Brinco coração orgânico', 
     price: 74.90, 
     category: 'Brincos', 
-    images: ['/IMG-20260424-WA0367.jpg', '/IMG-20260424-WA0366.jpg', '/IMG-20260424-WA0363.jpg'], 
+    images: [
+      '/IMG-20260424-WA0367.jpg',
+      '/IMG-20260424-WA0366.jpg',
+      '/IMG-20260424-WA0363.jpg',
+      '/IMG-20260423-WA0364.jpg'
+    ], 
     stock: 2, 
     colors: ['Dourado', 'Prata'],
     description: 'Romantismo com um toque moderno. Este brinco em formato de coração apresenta um design orgânico e fluido, trazendo leveza e sofisticação para o visual. Disponível nos banhos dourado e prata.',
@@ -878,7 +934,11 @@ export const PRODUCTS: Product[] = [
     name: 'Argola gotas turquesa moedas boho', 
     price: 84.90, 
     category: 'Brincos', 
-    images: ['/IMG-20260424-WA0386.jpg', '/IMG-20260424-WA0388.jpg'], 
+    images: [
+      '/IMG-20260424-WA0386.jpg',
+      '/IMG-20260424-WA0388.jpg',
+      '/IMG-20260423-WA0387.jpg'
+    ], 
     stock: 2, 
     colors: ['Prata'],
     description: 'Estilo boho chic em cada detalhe. Esta argola prateada é adornada com pingentes de gotas em tom turquesa e mini moedas, trazendo um ar cigano e sofisticado para o look. Ideal para quem busca uma peça com personalidade e atitude.',
@@ -1029,7 +1089,13 @@ export const PRODUCTS: Product[] = [
     name: 'Trio pontos de luz', 
     price: 89.90, 
     category: 'Brincos', 
-    images: ['/IMG-20260424-WA0617.jpg', '/IMG-20260424-WA0616.jpg', '/IMG-20260424-WA0613.jpg', '/IMG-20260424-WA0612.jpg'], 
+    images: [
+      '/IMG-20260424-WA0617.jpg',
+      '/IMG-20260424-WA0616.jpg',
+      '/IMG-20260424-WA0613.jpg',
+      '/IMG-20260424-WA0612.jpg',
+      '/IMG-20260424-WA0615.jpg'
+    ], 
     video: '/VID-20260424-WA0614.mp4',
     videoPoster: '/IMG-20260424-WA0617.jpg',
     stock: 5, 
@@ -1076,7 +1142,12 @@ export const PRODUCTS: Product[] = [
     name: 'Brinco trevo texturizado', 
     price: 49.90, 
     category: 'Brincos', 
-    images: ['/IMG-20260424-WA0622.jpg', '/IMG-20260424-WA0619.jpg'], 
+    images: [
+      '/IMG-20260424-WA0622.jpg',
+      '/IMG-20260424-WA0619.jpg',
+      '/IMG-20260424-WA0620.jpg',
+      '/IMG-20260424-WA0621.jpg'
+    ], 
     video: '/VID-20260424-WA0628.mp4',
     videoPoster: '/IMG-20260424-WA0622.jpg',
     stock: 5, 
