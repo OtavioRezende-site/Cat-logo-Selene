@@ -82,7 +82,7 @@ export const PRODUCTS: Product[] = [
     name: 'Colar Cruz pérola cravejada', 
     price: 116.90, 
     category: 'Colares', 
-    images: ['/IMG-20260424-WA0283.jpg', '/IMG-20260424-WA0280.jpg', '/IMG-20260424-WA0285.jpg'], 
+    images: ['/IMG-20260424-WA0283.jpg', '/IMG-20260424-WA0280.jpg', '/IMG-20260424-WA0285.jpg', '/IMG-20260423-WA0284.jpg', '/IMG-20260423-WA0282.jpg'], 
     stock: 3, 
     colors: ['Dourado'],
     description: 'Um colar que une a fé e a sofisticação da pérola com o brilho clássico da cruz cravejada. Perfeito para iluminar qualquer composição com um toque de luz e delicadeza.',
@@ -110,15 +110,11 @@ export const PRODUCTS: Product[] = [
     images: [
       '/IMG-20260424-WA0353.jpg',
       '/IMG-20260424-WA0355.jpg',
-      '/IMG-20260423-WA0353.jpg',
-      '/IMG-20260423-WA0355.jpg',
       '/IMG-20260423-WA0351.jpg',
       '/IMG-20260423-WA0349.jpg',
       '/IMG-20260423-WA0347.jpg',
       '/IMG-20260423-WA0345.jpg',
-      '/IMG-20260423-WA0343.jpg',
-      '/IMG-20260424-WA0280.jpg',
-      '/IMG-20260424-WA0283.jpg'
+      '/IMG-20260423-WA0343.jpg'
     ], 
     stock: 3, 
     colors: ['Dourado', 'Prata'],
@@ -137,7 +133,6 @@ export const PRODUCTS: Product[] = [
       '/IMG-20260424-WA0367.jpg',
       '/IMG-20260424-WA0371.jpg',
       '/IMG-20260423-WA0368.jpg',
-      '/IMG-20260423-WA0366.jpg',
       '/IMG-20260423-WA0364.jpg'
     ], 
     stock: 3, 
@@ -183,7 +178,6 @@ export const PRODUCTS: Product[] = [
       '/IMG-20260424-WA0377.jpg',
       '/IMG-20260424-WA0378.jpg',
       '/IMG-20260424-WA0382.jpg',
-      '/IMG-20260423-WA0378.jpg',
       '/IMG-20260423-WA0376.jpg',
       '/IMG-20260423-WA0374.jpg'
     ], 
@@ -235,8 +229,9 @@ export const PRODUCTS: Product[] = [
       '/IMG-20260424-WA0326.jpg',
       '/IMG-20260424-WA0328.jpg',
       '/IMG-20260424-WA0330.jpg',
-      '/IMG-20260423-WA0326.jpg',
-      '/IMG-20260423-WA0328.jpg'
+      '/IMG-20260423-WA0329.jpg',
+      '/IMG-20260423-WA0331.jpg',
+      '/IMG-20260423-WA0333.jpg'
     ], 
     stock: 3, 
     colors: ['Prata'],
@@ -523,7 +518,9 @@ export const PRODUCTS: Product[] = [
       '/IMG-20260424-WA0301.jpg',
       '/IMG-20260424-WA0298.jpg',
       '/IMG-20260424-WA0294.jpg',
-      '/IMG-20260424-WA0293.jpg'
+      '/IMG-20260424-WA0293.jpg',
+      '/IMG-20260423-WA0299.jpg',
+      '/IMG-20260423-WA0295.jpg'
     ], 
     stock: 3, 
     colors: ['Prata'],
@@ -794,7 +791,9 @@ export const PRODUCTS: Product[] = [
     images: [
       '/IMG-20260424-WA0319.jpg',
       '/IMG-20260424-WA0317.jpg',
-      '/IMG-20260424-WA0321.jpg'
+      '/IMG-20260424-WA0321.jpg',
+      '/IMG-20260423-WA0322.jpg',
+      '/IMG-20260423-WA0315.jpg'
     ], 
     stock: 2, 
     colors: ['Dourado', 'Prata'],
@@ -808,9 +807,7 @@ export const PRODUCTS: Product[] = [
     images: [
       '/IMG-20260424-WA0330.jpg',
       '/IMG-20260424-WA0328.jpg',
-      '/IMG-20260424-WA0326.jpg',
-      '/IMG-20260423-WA0328.jpg',
-      '/IMG-20260423-WA0326.jpg'
+      '/IMG-20260424-WA0326.jpg'
     ], 
     stock: 2, 
     colors: ['Dourado'],
