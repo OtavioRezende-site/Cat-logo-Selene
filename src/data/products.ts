@@ -86,7 +86,7 @@ export const PRODUCTS: Product[] = [
     name: 'Colar Cruz pérola cravejada', 
     price: 116.90, 
     category: 'Colares', 
-    images: ['/IMG-20260423-WA0284.jpg', '/IMG-20260423-WA0282.jpg', '/IMG-20260423-WA0280.jpg'], 
+    images: ['/IMG-20260424-WA0283.jpg', '/IMG-20260424-WA0280.jpg', '/IMG-20260424-WA0285.jpg'], 
     stock: 3, 
     colors: ['Dourado'],
     description: 'Um colar que une a fé e a sofisticação da pérola com o brilho clássico da cruz cravejada. Perfeito para iluminar qualquer composição com um toque de luz e delicadeza.',
@@ -113,10 +113,10 @@ export const PRODUCTS: Product[] = [
     price: 119.90, 
     category: 'Colares', 
     images: [
-      '/IMG-20260423-WA0349.jpg',
-      '/IMG-20260423-WA0351.jpg',
-      '/IMG-20260423-WA0353.jpg',
-      '/IMG-20260423-WA0355.jpg'
+      '/IMG-20260424-WA0353.jpg',
+      '/IMG-20260424-WA0355.jpg',
+      '/IMG-20260424-WA0280.jpg',
+      '/IMG-20260424-WA0283.jpg'
     ], 
     stock: 3, 
     colors: ['Dourado', 'Prata'],
@@ -496,10 +496,10 @@ export const PRODUCTS: Product[] = [
     price: 89.90, 
     category: 'Pulseiras', 
     images: [
-      '/IMG-20260423-WA0301.jpg',
-      '/IMG-20260423-WA0299.jpg',
-      '/IMG-20260423-WA0297.jpg',
-      '/IMG-20260423-WA0295.jpg'
+      '/IMG-20260424-WA0301.jpg',
+      '/IMG-20260424-WA0298.jpg',
+      '/IMG-20260424-WA0294.jpg',
+      '/IMG-20260424-WA0293.jpg'
     ], 
     stock: 3, 
     colors: ['Prata'],
@@ -512,8 +512,8 @@ export const PRODUCTS: Product[] = [
     price: 72.90, 
     category: 'Pulseiras', 
     images: [
-      '/IMG-20260423-WA0305.jpg',
-      '/IMG-20260423-WA0303.jpg'
+      '/IMG-20260424-WA0301.jpg',
+      '/IMG-20260424-WA0303.jpg'
     ], 
     stock: 3, 
     colors: ['Dourado'],
@@ -537,7 +537,7 @@ export const PRODUCTS: Product[] = [
     name: 'Trio Coração Cravejado', 
     price: 168.90, 
     category: 'Brincos', 
-    images: [], 
+    images: ['/IMG-20260424-WA0353.jpg', '/IMG-20260424-WA0355.jpg'], 
     stock: 2, 
     colors: ['Dourado', 'Prata'],
     colorImages: {
@@ -564,7 +564,7 @@ export const PRODUCTS: Product[] = [
     name: 'Trio quadradinho reto', 
     price: 147.90, 
     category: 'Brincos', 
-    images: [], 
+    images: ['/IMG-20260424-WA0613.jpg', '/IMG-20260424-WA0612.jpg'], 
     stock: 2, 
     colors: ['Prata'],
     colorImages: {
@@ -577,7 +577,7 @@ export const PRODUCTS: Product[] = [
     name: 'Trio Quadradinho Slim', 
     price: 147.90, 
     category: 'Brincos', 
-    images: [], 
+    images: ['/IMG-20260424-WA0178.jpg', '/IMG-20260424-WA0176.jpg'], 
     stock: 2, 
     colors: ['Dourado', 'Prata'],
     colorImages: {
@@ -591,7 +591,7 @@ export const PRODUCTS: Product[] = [
     name: 'Trio argola bolinhas', 
     price: 147.90, 
     category: 'Brincos', 
-    images: [], 
+    images: ['/IMG-20260424-WA0607.jpg', '/IMG-20260424-WA0608.jpg'], 
     stock: 2, 
     colors: ['Prata'],
     colorImages: {
@@ -599,7 +599,7 @@ export const PRODUCTS: Product[] = [
     },
     description: 'Textura e movimento definem esse trio. As esferas polidas captam a luz de forma única, criando um visual dinâmico e moderno.'
   },
-  { id: 'b-6', name: 'Trio Argola Gotas', price: 168.90, category: 'Brincos', images: [], stock: 2, colors: ['Prata'] },
+  { id: 'b-6', name: 'Trio Argola Gotas', price: 168.90, category: 'Brincos', images: ['/IMG-20260424-WA0619.jpg', '/IMG-20260424-WA0620.jpg'], stock: 2, colors: ['Prata'] },
   { 
     id: 'b-7', 
     name: 'Argolinha pedra marrom oval', 
@@ -825,8 +825,8 @@ export const PRODUCTS: Product[] = [
   { id: 'bo-1', name: 'Colar lenço marrom coração', price: 94.90, category: 'Colares', subcategory: 'Boho', images: ['/IMG-20260424-WA0541.jpg', '/IMG-20260424-WA0543.jpg', '/IMG-20260424-WA0545.jpg'], stock: 2, colors: ['Marrom'] },
   { id: 'bo-2', name: 'Choker camurça coração', price: 54.90, category: 'Colares', subcategory: 'Boho', images: ['/IMG-20260424-WA0495.jpg', '/IMG-20260424-WA0496.jpg'], stock: 3, colors: ['Preto'] },
   { id: 'bo-3', name: 'Choker camurça orgânico', price: 61.90, category: 'Colares', subcategory: 'Boho', images: ['/IMG-20260424-WA0498.jpg'], stock: 2, colors: ['Marrom'] },
-  { id: 'bo-4', name: 'Colar Lenço Marrom Pedra Oval', price: 73.90, category: 'Colares', subcategory: 'Boho', images: [], stock: 3, colors: ['Marrom'], imageStyle: 'scale-[1.8]' },
-  { id: 'bo-5', name: 'Choker malha telha', price: 89.90, category: 'Colares', subcategory: 'Boho', images: [], stock: 2, colors: ['Dourado'] },
+  { id: 'bo-4', name: 'Colar Lenço Marrom Pedra Oval', price: 73.90, category: 'Colares', subcategory: 'Boho', images: ['/IMG-20260424-WA0319.jpg', '/IMG-20260424-WA0317.jpg'], stock: 3, colors: ['Marrom'], imageStyle: 'scale-[1.8]' },
+  { id: 'bo-5', name: 'Choker malha telha', price: 89.90, category: 'Colares', subcategory: 'Boho', images: ['/IMG-20260424-WA0280.jpg', '/IMG-20260424-WA0283.jpg'], stock: 2, colors: ['Dourado'] },
 
   // NOVOS ITENS - BRINCOS
   { 
