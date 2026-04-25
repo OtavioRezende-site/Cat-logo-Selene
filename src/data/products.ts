@@ -23,10 +23,11 @@ export const PRODUCTS: Product[] = [
     price: 74.90, 
     category: 'Colares', 
     images: [
-      '/IMG-20260424-WA0225.jpg',
-      '/IMG-20260423-WA0225.jpg',
-      '/IMG-20260424-WA0227.jpg',
-      '/IMG-20260423-WA0227.jpg'
+      '/IMG-20250124-WA0225.jpg',
+      '/IMG-20250124-WA0223.jpg',
+      '/IMG-20250124-WA0222.jpg',
+      '/IMG-20250124-WA0221.jpg',
+      '/IMG-20250124-WA0220.jpg'
     ], 
     stock: 4, 
     colors: ['Dourado', 'Prata'],
