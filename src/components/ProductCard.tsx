@@ -1,6 +1,5 @@
 import { Product } from '../data/products';
 import { useBag } from './BagContext';
-import { getImagePath } from '../lib/imageUtils';
 
 interface ProductCardProps {
   product: Product;
@@ -22,7 +21,7 @@ export default function ProductCard({ product, onSelect }: ProductCardProps) {
     >
       <div className="relative aspect-[3/4] mb-6 overflow-hidden bg-white border border-line">
         <img 
-          src={getImagePath(product.images[0])} 
+          src={'/' + product.images[0]} 
           alt={product.name}
           className={`w-full h-full object-cover transition-transform duration-700 ${product.imageStyle || 'group-hover:scale-105'} ${isOutOfStock ? 'opacity-40 grayscale' : ''}`}
           referrerPolicy="no-referrer"
