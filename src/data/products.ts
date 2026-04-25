@@ -23,11 +23,8 @@ export const PRODUCTS: Product[] = [
     price: 74.90, 
     category: 'Colares', 
     images: [
-      '/IMG-20260423-WA0225.jpg',
-      '/IMG-20260423-WA0227.jpg',
-      '/IMG-20260423-WA0229.jpg',
-      '/IMG-20260423-WA0231.jpg',
-      '/IMG-20260423-WA0233.jpg'
+      '/IMG-20260424-WA0225.jpg',
+      '/IMG-20260424-WA0227.jpg'
     ], 
     stock: 4, 
     colors: ['Dourado', 'Prata'],
@@ -40,8 +37,8 @@ export const PRODUCTS: Product[] = [
     price: 53.90, 
     category: 'Colares', 
     images: [
-      '/IMG-20260423-WA0238.jpg',
-      '/IMG-20260423-WA0240.jpg'
+      '/IMG-20260424-WA0242.jpg',
+      '/IMG-20260424-WA0243.jpg'
     ], 
     stock: 3, 
     colors: ['Dourado'],
@@ -54,11 +51,10 @@ export const PRODUCTS: Product[] = [
     price: 69.90, 
     category: 'Colares', 
     images: [
-      '/IMG-20260423-WA0250.jpg',
-      '/IMG-20260423-WA0246.jpg',
-      '/IMG-20260423-WA0248.jpg',
-      '/IMG-20260423-WA0252.jpg',
-      '/IMG-20260423-WA0254.jpg'
+      '/IMG-20260424-WA0250.jpg',
+      '/IMG-20260424-WA0246.jpg',
+      '/IMG-20260424-WA0252.jpg',
+      '/IMG-20260424-WA0247.jpg'
     ], 
     stock: 3, 
     colors: ['Dourado'],
@@ -71,16 +67,16 @@ export const PRODUCTS: Product[] = [
     price: 87.90, 
     category: 'Colares', 
     images: [
-      '/IMG-20260423-WA0261.jpg',
-      '/IMG-20260423-WA0263.jpg',
-      '/IMG-20260423-WA0265.jpg'
+      '/IMG-20260424-WA0262.jpg',
+      '/IMG-20260424-WA0264.jpg',
+      '/IMG-20260424-WA0266.jpg'
     ], 
     stock: 3, 
     colors: ['Dourado'],
     description: 'Sinta a vibração do oceano com este colar estrela do mar. Com uma corrente elegante e um pingente detalhado, ele é a peça ideal para quem ama o estilo náutico com um toque de sofisticação.',
     measurements: { length: '45cm', extender: '5cm' }
   },
-  { id: 'c-5', name: 'Colar mini relicário', price: 102.90, category: 'Colares', images: ['/IMG-20260423-WA0271.jpg', '/IMG-20260423-WA0278.jpg', '/IMG-20260423-WA0276.jpg'], stock: 2, colors: ['Dourado', 'Prata'] },
+  { id: 'c-5', name: 'Colar mini relicário', price: 102.90, category: 'Colares', images: ['/IMG-20260424-WA0271.jpg', '/IMG-20260424-WA0278.jpg', '/IMG-20260424-WA0276.jpg', '/IMG-20260424-WA0274.jpg'], stock: 2, colors: ['Dourado', 'Prata'] },
   { 
     id: 'c-6', 
     name: 'Colar Cruz pérola cravejada', 
@@ -98,9 +94,8 @@ export const PRODUCTS: Product[] = [
     price: 116.90, 
     category: 'Colares', 
     images: [
-      '/IMG-20260423-WA0343.jpg',
-      '/IMG-20260423-WA0345.jpg',
-      '/IMG-20260423-WA0347.jpg'
+      '/IMG-20260424-WA0432.jpg',
+      '/IMG-20260424-WA0433.jpg'
     ], 
     stock: 3, 
     colors: ['Dourado'],
@@ -130,9 +125,10 @@ export const PRODUCTS: Product[] = [
     category: 'Colares', 
     subcategory: 'Chokers', 
     images: [
-      '/IMG-20260423-WA0364.jpg',
-      '/IMG-20260423-WA0366.jpg',
-      '/IMG-20260423-WA0368.jpg'
+      '/IMG-20260424-WA0363.jpg',
+      '/IMG-20260424-WA0366.jpg',
+      '/IMG-20260424-WA0367.jpg',
+      '/IMG-20260424-WA0371.jpg'
     ], 
     stock: 3, 
     colors: ['Dourado'] 
@@ -155,9 +151,10 @@ export const PRODUCTS: Product[] = [
     category: 'Colares', 
     subcategory: 'Chokers', 
     images: [
-      '/IMG-20260423-WA0387.jpg',
-      '/IMG-20260423-WA0389.jpg',
-      '/IMG-20260423-WA0385.jpg'
+      '/IMG-20260424-WA0381.jpg',
+      '/IMG-20260424-WA0382.jpg',
+      '/IMG-20260424-WA0386.jpg',
+      '/IMG-20260424-WA0388.jpg'
     ], 
     stock: 3, 
     colors: ['Dourado'] 
@@ -168,10 +165,10 @@ export const PRODUCTS: Product[] = [
     price: 95.90, 
     category: 'Colares', 
     images: [
-      '/IMG-20260423-WA0374.jpg',
-      '/IMG-20260423-WA0378.jpg',
-      '/IMG-20260423-WA0380.jpg',
-      '/IMG-20260423-WA0376.jpg'
+      '/IMG-20260424-WA0371.jpg',
+      '/IMG-20260424-WA0377.jpg',
+      '/IMG-20260424-WA0378.jpg',
+      '/IMG-20260424-WA0382.jpg'
     ], 
     stock: 3, 
     colors: ['Dourado'] 
@@ -201,11 +198,9 @@ export const PRODUCTS: Product[] = [
     price: 74.90, 
     category: 'Colares', 
     images: [
-      '/IMG-20260423-WA0307.jpg',
-      '/IMG-20260423-WA0309.jpg',
-      '/IMG-20260423-WA0311.jpg',
-      '/IMG-20260423-WA0313.jpg',
-      '/IMG-20260423-WA0315.jpg'
+      '/IMG-20260424-WA0308.jpg',
+      '/IMG-20260424-WA0311.jpg',
+      '/IMG-20260424-WA0312.jpg'
     ], 
     stock: 3, 
     colors: ['Prata'],
@@ -219,8 +214,10 @@ export const PRODUCTS: Product[] = [
     category: 'Colares', 
     subcategory: 'Chokers', 
     images: [
-      '/IMG-20260423-WA0321.jpg',
-      '/IMG-20260423-WA0322.jpg'
+      '/IMG-20260424-WA0321.jpg',
+      '/IMG-20260424-WA0326.jpg',
+      '/IMG-20260424-WA0328.jpg',
+      '/IMG-20260424-WA0330.jpg'
     ], 
     stock: 3, 
     colors: ['Prata'],
@@ -233,9 +230,10 @@ export const PRODUCTS: Product[] = [
     price: 73.90, 
     category: 'Colares', 
     images: [
-      '/IMG-20260423-WA0401.jpg',
-      '/IMG-20260423-WA0399.jpg',
-      '/IMG-20260423-WA0394.jpg'
+      '/IMG-20260424-WA0402.jpg',
+      '/IMG-20260424-WA0403.jpg',
+      '/IMG-20260424-WA0404.jpg',
+      '/IMG-20260424-WA0406.jpg'
     ], 
     stock: 2, 
     colors: ['Prata'] 
@@ -247,9 +245,8 @@ export const PRODUCTS: Product[] = [
     category: 'Colares', 
     subcategory: 'Chokers', 
     images: [
-      '/IMG-20260423-WA0391.jpg',
-      '/IMG-20260423-WA0390.jpg',
-      '/IMG-20260423-WA0392.jpg'
+      '/IMG-20260424-WA0409.jpg',
+      '/IMG-20260424-WA0410.jpg'
     ], 
     stock: 2, 
     colors: ['Prata'] 
@@ -272,16 +269,16 @@ export const PRODUCTS: Product[] = [
     price: 67.90, 
     category: 'Pulseiras', 
     images: [
-      '/IMG-20260423-WA0050.jpg',
-      '/IMG-20260423-WA0056.jpg',
-      '/IMG-20260423-WA0054.jpg',
-      '/IMG-20260423-WA0052.jpg'
+      '/IMG-20260424-WA0502.jpg',
+      '/IMG-20260424-WA0503.jpg',
+      '/IMG-20260424-WA0504.jpg',
+      '/IMG-20260424-WA0508.jpg'
     ], 
     stock: 3, 
     colors: ['Dourado', 'Prata'],
     colorImages: {
-      'Dourado': '/IMG-20260423-WA0056.jpg',
-      'Prata': '/IMG-20260423-WA0054.jpg'
+      'Dourado': '/IMG-20260424-WA0503.jpg',
+      'Prata': '/IMG-20260424-WA0502.jpg'
     },
     description: 'Delicadeza que balança com você. Essa pulseira com medalhinhas traz um movimento leve e um brilho encantador, perfeita para compor mixes ou brilhar sozinha.',
     measurements: { length: '15cm', extender: '5cm' }
@@ -292,15 +289,15 @@ export const PRODUCTS: Product[] = [
     price: 74.90, 
     category: 'Pulseiras', 
     images: [
-      '/IMG-20260423-WA0037.jpg',
-      '/IMG-20260423-WA0040.jpg',
-      '/IMG-20260423-WA0043.jpg'
+      '/IMG-20260424-WA0474.jpg',
+      '/IMG-20260424-WA0477.jpg',
+      '/IMG-20260424-WA0476.jpg'
     ], 
     stock: 3, 
     colors: ['Dourado', 'Prata'],
     colorImages: {
-      'Dourado': '/IMG-20260423-WA0043.jpg',
-      'Prata': '/IMG-20260423-WA0037.jpg'
+      'Dourado': '/IMG-20260424-WA0476.jpg',
+      'Prata': '/IMG-20260424-WA0474.jpg'
     },
     description: 'Pérolas são eternas e trazem aquela luz especial para o visual. Essa pulseira é puro charme e sofisticação, ideal para quem ama o estilo clássico mas com um toque moderno. Uma peça versátil que te acompanha do dia a dia a um evento super especial.',
     measurements: { length: '16cm', extender: '4cm' }
@@ -311,8 +308,8 @@ export const PRODUCTS: Product[] = [
     price: 60.90, 
     category: 'Pulseiras', 
     images: [
-      '/IMG-20260423-WA0137.jpg',
-      '/IMG-20260423-WA0139.jpg'
+      '/IMG-20260424-WA0140.jpg',
+      '/IMG-20260424-WA0144.jpg'
     ], 
     stock: 1, 
     colors: ['Dourado'],
@@ -325,14 +322,15 @@ export const PRODUCTS: Product[] = [
     price: 71.90, 
     category: 'Pulseiras', 
     images: [
-      '/IMG-20260423-WA0140.jpg',
-      '/IMG-20260423-WA0143.jpg',
-      '/IMG-20260423-WA0145.jpg'
+      '/IMG-20260424-WA0140.jpg',
+      '/IMG-20260424-WA0144.jpg',
+      '/IMG-20260424-WA0145.jpg',
+      '/IMG-20260424-WA0146.jpg'
     ], 
     stock: 3, 
     colors: ['Dourado'],
     video: '/VID-20260424-WA0147.mp4',
-    videoPoster: '/IMG-20260423-WA0143.jpg',
+    videoPoster: '/IMG-20260424-WA0145.jpg',
     description: 'Sinta a brisa do mar no seu pulso. Com pingentes de estrela do mar, búzios, cavalo marinho e conchas, essa pulseira é a tradução perfeita do estilo sereia chic.',
     measurements: { length: '16cm', extender: '5cm' }
   },
@@ -342,18 +340,17 @@ export const PRODUCTS: Product[] = [
     price: 74.90, 
     category: 'Pulseiras', 
     images: [
-      '/IMG-20260423-WA0149.jpg',
-      '/IMG-20260423-WA0154.jpg',
-      '/IMG-20260423-WA0156.jpg'
+      '/IMG-20260424-WA0152.jpg',
+      '/IMG-20260424-WA0153.jpg'
     ], 
     stock: 3, 
     colors: ['Dourado', 'Prata'],
     colorImages: {
-      'Dourado': '/IMG-20260423-WA0154.jpg',
-      'Prata': '/IMG-20260423-WA0156.jpg'
+      'Dourado': '/IMG-20260424-WA0152.jpg',
+      'Prata': '/IMG-20260424-WA0153.jpg'
     },
     video: '/VID-20260424-WA0149.mp4',
-    videoPoster: '/IMG-20260423-WA0149.jpg',
+    videoPoster: '/IMG-20260424-WA0152.jpg',
     description: 'A união perfeita entre o moderno e o delicado. Com mini cristais em formato quadrado intercalados por bolinhas polidas, essa pulseira traz uma geometria charmosa e um brilho discreto que ilumina o pulso. Ideal para quem busca uma peça atemporal com um toque contemporâneo.',
     measurements: { length: '15cm', extender: '5cm' }
   },
@@ -363,19 +360,18 @@ export const PRODUCTS: Product[] = [
     price: 74.90, 
     category: 'Pulseiras', 
     images: [
-      '/IMG-20260423-WA0157.jpg',
-      '/IMG-20260423-WA0158.jpg',
-      '/IMG-20260423-WA0159.jpg',
-      '/IMG-20260423-WA0160.jpg'
+      '/IMG-20260424-WA0163.jpg',
+      '/IMG-20260424-WA0167.jpg',
+      '/IMG-20260424-WA0169.jpg'
     ], 
     stock: 3, 
     colors: ['Dourado', 'Prata'],
     colorImages: {
-      'Dourado': '/IMG-20260423-WA0159.jpg',
-      'Prata': '/IMG-20260423-WA0158.jpg'
+      'Dourado': '/IMG-20260424-WA0167.jpg',
+      'Prata': '/IMG-20260424-WA0169.jpg'
     },
     video: '/VID-20260424-WA0158.mp4',
-    videoPoster: '/IMG-20260423-WA0157.jpg',
+    videoPoster: '/IMG-20260424-WA0163.jpg',
     description: 'Uma composição poética que une a delicadeza dos cristais à simbolismo da concha. Esta pulseira dupla é a escolha perfeita para quem busca um acessório com movimento e sofisticação. O brilho dos cristais complementa perfeitamente o detalhe central, criando um visual náutico chic.',
     measurements: { length: '16cm', extender: '5cm' }
   },
@@ -385,15 +381,15 @@ export const PRODUCTS: Product[] = [
     price: 88.90, 
     category: 'Pulseiras', 
     images: [
-      '/IMG-20260423-WA0031.jpg',
-      '/IMG-20260423-WA0033.jpg',
-      '/IMG-20260423-WA0024.jpg'
+      '/IMG-20260424-WA0602.jpg',
+      '/IMG-20260424-WA0601.jpg',
+      '/IMG-20260424-WA0598.jpg'
     ],
     stock: 3, 
     colors: ['Dourado', 'Prata'],
     colorImages: {
-      'Dourado': '/IMG-20260423-WA0033.jpg',
-      'Prata': '/IMG-20260423-WA0031.jpg'
+      'Dourado': '/IMG-20260424-WA0598.jpg',
+      'Prata': '/IMG-20260424-WA0601.jpg'
     },
     description: 'Pulseira dupla, duas em uma, corrente Cartier e corrente em mini elo português com pingente ponto de luz.',
     measurements: { length: '13cm', extender: '7cm' }
@@ -404,8 +400,8 @@ export const PRODUCTS: Product[] = [
     price: 72.90, 
     category: 'Pulseiras', 
     images: [
-      '/IMG-20260423-WA0168.jpg',
-      '/IMG-20260423-WA0166.jpg'
+      '/IMG-20260424-WA0167.jpg',
+      '/IMG-20260424-WA0169.jpg'
     ], 
     stock: 1, 
     colors: ['Dourado'],
@@ -418,16 +414,17 @@ export const PRODUCTS: Product[] = [
     price: 128.90, 
     category: 'Pulseiras', 
     images: [
-      '/IMG-20260423-WA0174.jpg',
-      '/IMG-20260423-WA0178.jpg',
-      '/IMG-20260423-WA0176.jpg',
-      '/IMG-20260423-WA0180.jpg'
+      '/IMG-20260424-WA0171.jpg',
+      '/IMG-20260424-WA0172.jpg',
+      '/IMG-20260424-WA0173.jpg',
+      '/IMG-20260424-WA0176.jpg',
+      '/IMG-20260424-WA0178.jpg'
     ], 
     stock: 2, 
     colors: ['Dourado', 'Prata'],
     colorImages: {
-      'Dourado': '/IMG-20260423-WA0176.jpg',
-      'Prata': '/IMG-20260423-WA0180.jpg'
+      'Dourado': '/IMG-20260424-WA0176.jpg',
+      'Prata': '/IMG-20260424-WA0178.jpg'
     },
     description: 'Um bracelete com design orgânico e textura martelada que traz uma modernidade absoluta para o pulso. Sua forma ondulada e acabamento de alto brilho fazem dele uma peça statement, perfeita para ser usada sozinha ou em dupla para um visual ainda mais impactante.'
   },
@@ -437,16 +434,17 @@ export const PRODUCTS: Product[] = [
     price: 79.90, 
     category: 'Pulseiras', 
     images: [
-      '/IMG-20260423-WA0187.jpg',
-      '/IMG-20260423-WA0189.jpg',
-      '/IMG-20260423-WA0191.jpg',
-      '/IMG-20260423-WA0193.jpg'
+      '/IMG-20260424-WA0181.jpg',
+      '/IMG-20260424-WA0185.jpg',
+      '/IMG-20260424-WA0186.jpg',
+      '/IMG-20260424-WA0189.jpg',
+      '/IMG-20260424-WA0193.jpg'
     ], 
     stock: 2, 
     colors: ['Dourado', 'Prata'],
     colorImages: {
-      'Dourado': '/IMG-20260423-WA0191.jpg',
-      'Prata': '/IMG-20260423-WA0193.jpg'
+      'Dourado': '/IMG-20260424-WA0189.jpg',
+      'Prata': '/IMG-20260424-WA0193.jpg'
     },
     description: 'Um bracelete delicado e luminoso que une o simbolismo do sol com a elegância clássica da pérola. Com um design aberto e ajustável, apresenta um sol central banhado em metal nobre com uma pérola de água doce encastelada no centro.'
   },
@@ -466,9 +464,7 @@ export const PRODUCTS: Product[] = [
     price: 50.90, 
     category: 'Pulseiras', 
     images: [
-      '/IMG-20260423-WA0202.jpg',
-      '/IMG-20260423-WA0204.jpg',
-      '/IMG-20260423-WA0206.jpg'
+      '/IMG-20260424-WA0205.jpg'
     ], 
     stock: 3, 
     colors: ['Prata'],
@@ -481,9 +477,8 @@ export const PRODUCTS: Product[] = [
     price: 171.90, 
     category: 'Pulseiras', 
     images: [
-      '/IMG-20260423-WA0214.jpg',
-      '/IMG-20260423-WA0216.jpg',
-      '/IMG-20260423-WA0218.jpg'
+      '/IMG-20260424-WA0217.jpg',
+      '/IMG-20260424-WA0219.jpg'
     ], 
     stock: 3, 
     colors: ['Prata'],
