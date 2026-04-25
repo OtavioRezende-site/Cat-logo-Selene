@@ -110,6 +110,13 @@ export const PRODUCTS: Product[] = [
     images: [
       '/IMG-20260424-WA0353.jpg',
       '/IMG-20260424-WA0355.jpg',
+      '/IMG-20260423-WA0353.jpg',
+      '/IMG-20260423-WA0355.jpg',
+      '/IMG-20260423-WA0351.jpg',
+      '/IMG-20260423-WA0349.jpg',
+      '/IMG-20260423-WA0347.jpg',
+      '/IMG-20260423-WA0345.jpg',
+      '/IMG-20260423-WA0343.jpg',
       '/IMG-20260424-WA0280.jpg',
       '/IMG-20260424-WA0283.jpg'
     ], 
@@ -128,7 +135,10 @@ export const PRODUCTS: Product[] = [
       '/IMG-20260424-WA0363.jpg',
       '/IMG-20260424-WA0366.jpg',
       '/IMG-20260424-WA0367.jpg',
-      '/IMG-20260424-WA0371.jpg'
+      '/IMG-20260424-WA0371.jpg',
+      '/IMG-20260423-WA0368.jpg',
+      '/IMG-20260423-WA0366.jpg',
+      '/IMG-20260423-WA0364.jpg'
     ], 
     stock: 3, 
     colors: ['Dourado'] 
@@ -138,7 +148,7 @@ export const PRODUCTS: Product[] = [
     name: 'Colar charms', 
     price: 140.90, 
     category: 'Colares', 
-    images: ['/IMG-20260424-WA0072.jpg'], 
+    images: ['/IMG-20260424-WA0008.jpg', '/IMG-20260424-WA0072.jpg'], 
     stock: 3, 
     colors: ['Dourado'],
     description: 'Um colar lúdico e cheio de encantos. Com pingentes variados que trazem movimento e personalidade para o seu mix de colares. Perfeito para quem ama acessórios com história e significados.',
@@ -154,7 +164,11 @@ export const PRODUCTS: Product[] = [
       '/IMG-20260424-WA0381.jpg',
       '/IMG-20260424-WA0382.jpg',
       '/IMG-20260424-WA0386.jpg',
-      '/IMG-20260424-WA0388.jpg'
+      '/IMG-20260424-WA0388.jpg',
+      '/IMG-20260423-WA0389.jpg',
+      '/IMG-20260423-WA0387.jpg',
+      '/IMG-20260423-WA0385.jpg',
+      '/IMG-20260423-WA0380.jpg'
     ], 
     stock: 3, 
     colors: ['Dourado'] 
@@ -168,7 +182,10 @@ export const PRODUCTS: Product[] = [
       '/IMG-20260424-WA0371.jpg',
       '/IMG-20260424-WA0377.jpg',
       '/IMG-20260424-WA0378.jpg',
-      '/IMG-20260424-WA0382.jpg'
+      '/IMG-20260424-WA0382.jpg',
+      '/IMG-20260423-WA0378.jpg',
+      '/IMG-20260423-WA0376.jpg',
+      '/IMG-20260423-WA0374.jpg'
     ], 
     stock: 3, 
     colors: ['Dourado'] 
@@ -178,7 +195,7 @@ export const PRODUCTS: Product[] = [
     name: 'Colar gravatinha medalhas', 
     price: 86.90, 
     category: 'Colares', 
-    images: ['/IMG-20260424-WA0078.jpg', '/IMG-20260424-WA0081.jpg'], 
+    images: ['/IMG-20260424-WA0005.jpg', '/IMG-20260424-WA0003.jpg', '/IMG-20260424-WA0078.jpg', '/IMG-20260424-WA0081.jpg'], 
     stock: 2, 
     colors: ['Dourado'],
     imageStyle: 'scale-[1.8]'
@@ -217,7 +234,9 @@ export const PRODUCTS: Product[] = [
       '/IMG-20260424-WA0321.jpg',
       '/IMG-20260424-WA0326.jpg',
       '/IMG-20260424-WA0328.jpg',
-      '/IMG-20260424-WA0330.jpg'
+      '/IMG-20260424-WA0330.jpg',
+      '/IMG-20260423-WA0326.jpg',
+      '/IMG-20260423-WA0328.jpg'
     ], 
     stock: 3, 
     colors: ['Prata'],
@@ -233,7 +252,13 @@ export const PRODUCTS: Product[] = [
       '/IMG-20260424-WA0402.jpg',
       '/IMG-20260424-WA0403.jpg',
       '/IMG-20260424-WA0404.jpg',
-      '/IMG-20260424-WA0406.jpg'
+      '/IMG-20260424-WA0406.jpg',
+      '/IMG-20260423-WA0401.jpg',
+      '/IMG-20260423-WA0399.jpg',
+      '/IMG-20260423-WA0394.jpg',
+      '/IMG-20260423-WA0392.jpg',
+      '/IMG-20260423-WA0391.jpg',
+      '/IMG-20260423-WA0390.jpg'
     ], 
     stock: 2, 
     colors: ['Prata'] 
@@ -259,7 +284,7 @@ export const PRODUCTS: Product[] = [
     price: 98.90, 
     category: 'Colares', 
     subcategory: 'Chokers', 
-    images: ['/IMG-20260424-WA0083.jpg'], 
+    images: ['/IMG-20260424-WA0006.jpg', '/IMG-20260424-WA0083.jpg', '/IMG-20260424-WA0084.jpg'], 
     stock: 3, 
     colors: ['Dourado'] 
   },
@@ -311,7 +336,9 @@ export const PRODUCTS: Product[] = [
     category: 'Pulseiras', 
     images: [
       '/IMG-20260424-WA0140.jpg',
-      '/IMG-20260424-WA0144.jpg'
+      '/IMG-20260424-WA0144.jpg',
+      '/IMG-20260424-WA0139.jpg',
+      '/IMG-20260424-WA0135.jpg'
     ], 
     stock: 1, 
     colors: ['Dourado'],
@@ -781,7 +808,9 @@ export const PRODUCTS: Product[] = [
     images: [
       '/IMG-20260424-WA0330.jpg',
       '/IMG-20260424-WA0328.jpg',
-      '/IMG-20260424-WA0326.jpg'
+      '/IMG-20260424-WA0326.jpg',
+      '/IMG-20260423-WA0328.jpg',
+      '/IMG-20260423-WA0326.jpg'
     ], 
     stock: 2, 
     colors: ['Dourado'],
