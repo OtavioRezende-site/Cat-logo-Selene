@@ -153,7 +153,7 @@ export const PRODUCTS: Product[] = [
     name: 'Colar Lua Madrepérola',
     price: 104.90,
     category: 'Colares',
-    images: ['/1000247162.jpg', '/1000247158.jpg'],
+    images: ['/IMG-20260423-WA0326(1).jpg', '/IMG-20260423-WA0328(1).jpg'],
     stock: 3,
     colors: ['Prata']
   },
@@ -252,7 +252,7 @@ export const PRODUCTS: Product[] = [
     name: 'Colar lenço marrom coração',
     price: 59.90,
     category: 'Colares',
-    images: ['/1000247603.jpg', '/1000247594.jpg', '/1000247605.jpg', '/1000247601.jpg'],
+    images: ['/IMG-20260425-WA0075.jpg', '/IMG-20260425-WA0077.jpg'],
     stock: 3,
     colors: ['Marrom']
   },
@@ -261,7 +261,7 @@ export const PRODUCTS: Product[] = [
     name: 'Choker camurça coração',
     price: 49.90,
     category: 'Colares',
-    images: ['/1000247618.jpg', '/1000247615.jpg', '/1000247622.jpg', '/1000247628.jpg'],
+    images: ['/IMG-20260425-WA0085.jpg', '/IMG-20260425-WA0084.jpg', '/IMG-20260425-WA0081.jpg', '/IMG-20260425-WA0079.jpg'],
     stock: 3,
     colors: ['Preto']
   },
@@ -270,7 +270,7 @@ export const PRODUCTS: Product[] = [
     name: 'Choker camurça orgânico',
     price: 49.90,
     category: 'Colares',
-    images: ['/1000247637.jpg', '/1000247664.jpg', '/1000247643.jpg', '/1000247650.jpg', '/1000247659.jpg', '/1000247658.jpg'],
+    images: ['/IMG-20260425-WA0094.jpg', '/IMG-20260425-WA0092.jpg', '/IMG-20260425-WA0090.jpg', '/IMG-20260425-WA0097.jpg'],
     stock: 3,
     colors: ['Preto']
   },
@@ -279,7 +279,7 @@ export const PRODUCTS: Product[] = [
     name: 'Colar Lenço Marrom Pedra Oval',
     price: 64.90,
     category: 'Colares',
-    images: ['/1000247675.jpg', '/1000247695.jpg', '/1000247684.jpg', '/1000247689.jpg'],
+    images: ['/IMG-20260425-WA0098.jpg', '/IMG-20260425-WA0101.jpg'],
     stock: 3,
     colors: ['Marrom']
   },
@@ -288,7 +288,7 @@ export const PRODUCTS: Product[] = [
     name: 'Choker malha telha',
     price: 39.90,
     category: 'Colares',
-    images: ['/1000247581.jpg'],
+    images: ['/IMG-20260425-WA0103.jpg', '/IMG-20260425-WA0104.jpg'],
     stock: 5,
     colors: ['Dourado']
   },
@@ -299,7 +299,7 @@ export const PRODUCTS: Product[] = [
     name: 'Pulseira Medalhas',
     price: 67.90,
     category: 'Pulseiras',
-    images: ['/IMG-20260423-WA0050.jpg', '/IMG-20260423-WA0056.jpg', '/IMG-20260423-WA0054.jpg', '/IMG-20260423-WA0052.jpg'],
+    images: ['/IMG-20260424-WA0072.jpg', '/IMG-20260424-WA0078.jpg', '/IMG-20260424-WA0081.jpg', '/IMG-20260424-WA0083.jpg', '/IMG-20260424-WA0084.jpg'],
     stock: 3,
     colors: ['Dourado', 'Prata']
   },
@@ -308,7 +308,7 @@ export const PRODUCTS: Product[] = [
     name: 'Pulseira pérolas',
     price: 74.90,
     category: 'Pulseiras',
-    images: ['/IMG-20260423-WA0037.jpg', '/IMG-20260423-WA0040.jpg', '/IMG-20260423-WA0043.jpg'],
+    images: ['/IMG-20260424-WA0089.jpg', '/IMG-20260424-WA0090.jpg', '/IMG-20260424-WA0091.jpg', '/IMG-20260424-WA0093.jpg'],
     stock: 3,
     colors: ['Dourado', 'Prata']
   },
@@ -353,7 +353,7 @@ export const PRODUCTS: Product[] = [
     name: 'Pulseira dupla corrente e ponto de luz',
     price: 88.90,
     category: 'Pulseiras',
-    images: ['/IMG-20260423-WA0031.jpg', '/IMG-20260423-WA0033.jpg', '/IMG-20260423-WA0024.jpg'],
+    images: ['/IMG-20260424-WA0099.jpg', '/IMG-20260424-WA0102.jpg', '/IMG-20260424-WA0103.jpg', '/IMG-20260424-WA0106.jpg'],
     stock: 3,
     colors: ['Dourado', 'Prata']
   },
@@ -445,7 +445,7 @@ export const PRODUCTS: Product[] = [
     name: 'Trio Coração Cravejado',
     price: 168.90,
     category: 'Brincos',
-    images: ['/trio-coracao-mix.jpg', '/trio-coracao-dourado-2.jpg', '/trio-coracao-prata-2.jpg', '/trio-coracao-grupo.jpg'],
+    images: ['/IMG-20260424-WA0108.jpg', '/IMG-20260424-WA0110.jpg', '/IMG-20260424-WA0112.jpg'],
     stock: 2,
     colors: ['Dourado', 'Prata']
   },
