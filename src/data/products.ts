@@ -1030,7 +1030,7 @@ export const PRODUCTS: Product[] = [
     name: 'Colar cruz elo português', 
     price: 89.90, 
     category: 'Colares', 
-    images: ['/IMG-20260424-WA0664.jpg', '/IMG-20260424-WA0666.jpg'], 
+    images: ['/IMG-20260424-WA0664.jpg', '/IMG-20260424-WA0666.jpg', '/IMG-20260424-WA0667.jpg', '/IMG-20260424-WA0668.jpg'], 
     stock: 3, 
     colors: ['Dourado'],
     description: 'A força da fé unida à elegância do elo português. Este colar banhado a ouro apresenta uma cruz sofisticada com detalhes em cristais, pendurada em uma corrente de elos portugueses clássicos. Uma peça atemporal e cheia de brilho.',
@@ -1109,7 +1109,7 @@ export const PRODUCTS: Product[] = [
     name: 'Conjunto gota cravejada', 
     price: 134.90, 
     category: 'Conjuntos', 
-    images: ['/IMG-20260424-WA0650.jpg', '/IMG-20260424-WA0653.jpg'], 
+    images: ['/IMG-20260424-WA0653.jpg'], 
     stock: 8, 
     colors: ['Azul', 'Rosa'],
     colorImages: {
