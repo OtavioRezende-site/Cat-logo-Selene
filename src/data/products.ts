@@ -817,9 +817,9 @@ export const PRODUCTS: Product[] = [
   { id: 'a-3', name: 'Anel max croissant regulável', price: 104.90, category: 'Anéis', images: ['/IMG-20260424-WA0445.jpg', '/IMG-20260424-WA0444.jpg', '/IMG-20260424-WA0442.jpg', '/IMG-20260424-WA0437.jpg'], stock: 3, colors: ['Prata'] },
   { id: 'a-4', name: 'Anel coração regulável', price: 104.90, category: 'Anéis', images: ['/IMG-20260424-WA0457.jpg', '/IMG-20260424-WA0453.jpg', '/IMG-20260424-WA0454.jpg', '/IMG-20260424-WA0458.jpg'], stock: 3, colors: ['Prata'] },
   { id: 'a-5', name: 'Anel tartaruga azul', price: 104.90, category: 'Anéis', images: ['/IMG-20260424-WA0463.jpg', '/IMG-20260424-WA0464.jpg'], stock: 3, colors: ['Prata'] },
-  { id: 'a-6', name: 'Anel solitário slim', price: 88.90, category: 'Anéis', images: ['/IMG-20260424-WA0467.jpg'], stock: 4, colors: ['Dourado'] },
+  { id: 'a-6', name: 'Anel solitário slim', price: 88.90, category: 'Anéis', images: ['/IMG-20260424-WA0467.jpg', '/IMG-20260424-WA0471.jpg'], stock: 4, colors: ['Dourado'] },
   { id: 'a-7', name: 'Anel estrela do mar regulável', price: 87.90, category: 'Anéis', images: ['/IMG-20260424-WA0474.jpg', '/IMG-20260424-WA0477.jpg', '/IMG-20260424-WA0476.jpg', '/IMG-20260424-WA0467.jpg'], stock: 3, colors: ['Dourado'] },
-  { id: 'a-8', name: 'Anel medalha sol regulável', price: 77.90, category: 'Anéis', images: ['/IMG-20260424-WA0483.jpg'], stock: 1, colors: ['Dourado'] },
+  { id: 'a-8', name: 'Anel medalha sol regulável', price: 77.90, category: 'Anéis', images: ['/IMG-20260424-WA0483.jpg', '/IMG-20260424-WA0477.jpg', '/IMG-20260424-WA0476.jpg'], stock: 1, colors: ['Dourado'] },
 
   // NOVOS ITENS - BOHO
   { id: 'bo-1', name: 'Colar lenço marrom coração', price: 94.90, category: 'Colares', subcategory: 'Boho', images: ['/IMG-20260424-WA0541.jpg', '/IMG-20260424-WA0543.jpg', '/IMG-20260424-WA0545.jpg'], stock: 2, colors: ['Marrom'] },
