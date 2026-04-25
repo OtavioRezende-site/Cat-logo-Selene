@@ -325,11 +325,14 @@ export const PRODUCTS: Product[] = [
     price: 71.90, 
     category: 'Pulseiras', 
     images: [
+      '/IMG-20260423-WA0140.jpg',
       '/IMG-20260423-WA0143.jpg',
       '/IMG-20260423-WA0145.jpg'
     ], 
     stock: 3, 
     colors: ['Dourado'],
+    video: '/VID-20260424-WA0147.mp4',
+    videoPoster: '/IMG-20260423-WA0143.jpg',
     description: 'Sinta a brisa do mar no seu pulso. Com pingentes de estrela do mar, búzios, cavalo marinho e conchas, essa pulseira é a tradução perfeita do estilo sereia chic.',
     measurements: { length: '16cm', extender: '5cm' }
   },
@@ -349,6 +352,8 @@ export const PRODUCTS: Product[] = [
       'Dourado': '/IMG-20260423-WA0154.jpg',
       'Prata': '/IMG-20260423-WA0156.jpg'
     },
+    video: '/VID-20260424-WA0149.mp4',
+    videoPoster: '/IMG-20260423-WA0149.jpg',
     description: 'A união perfeita entre o moderno e o delicado. Com mini cristais em formato quadrado intercalados por bolinhas polidas, essa pulseira traz uma geometria charmosa e um brilho discreto que ilumina o pulso. Ideal para quem busca uma peça atemporal com um toque contemporâneo.',
     measurements: { length: '15cm', extender: '5cm' }
   },
@@ -369,7 +374,7 @@ export const PRODUCTS: Product[] = [
       'Dourado': '/IMG-20260423-WA0159.jpg',
       'Prata': '/IMG-20260423-WA0158.jpg'
     },
-    video: '/media/pulseira-dupla-concha/video.mp4',
+    video: '/VID-20260424-WA0158.mp4',
     videoPoster: '/IMG-20260423-WA0157.jpg',
     description: 'Uma composição poética que une a delicadeza dos cristais à simbolismo da concha. Esta pulseira dupla é a escolha perfeita para quem busca um acessório com movimento e sofisticação. O brilho dos cristais complementa perfeitamente o detalhe central, criando um visual náutico chic.',
     measurements: { length: '16cm', extender: '5cm' }
@@ -450,7 +455,7 @@ export const PRODUCTS: Product[] = [
     name: 'Pulseira charms lover', 
     price: 82.90, 
     category: 'Pulseiras', 
-    images: ['/IMG-20260424-WA0196.jpg', '/IMG-20260424-WA0611.jpg'], 
+    images: ['/IMG-20260424-WA0611.jpg'], 
     stock: 3, 
     colors: ['Dourado'],
     description: 'Uma pulseira repleta de significados e encantos. Com diversos charms que representam amor, fé e sorte, esta peça é perfeita para quem gosta de acessórios com personalidade e movimento. Detalhes em pérolas e metal dourado de alta qualidade.'
@@ -532,12 +537,12 @@ export const PRODUCTS: Product[] = [
     name: 'Trio Coração Cravejado', 
     price: 168.90, 
     category: 'Brincos', 
-    images: ['/IMG-20260424-WA0586.jpg', '/IMG-20260424-WA0588.jpg', '/IMG-20260424-WA0589.jpg', '/IMG-20260424-WA0590.jpg'], 
+    images: [], 
     stock: 2, 
     colors: ['Dourado', 'Prata'],
     colorImages: {
-      'Dourado': '/IMG-20260424-WA0588.jpg',
-      'Prata': '/IMG-20260424-WA0590.jpg'
+      'Dourado': '',
+      'Prata': ''
     },
     description: 'O trio perfeito para quem tem vários furos ou quer praticidade no dia a dia. Três tamanhos de corações cravejados que iluminam o rosto com muita sofisticação.',
   },
@@ -546,7 +551,7 @@ export const PRODUCTS: Product[] = [
     name: 'Trio Argola Cravejada', 
     price: 168.90, 
     category: 'Brincos', 
-    images: ['/IMG-20260424-WA0595.jpg', '/IMG-20260424-WA0596.jpg', '/IMG-20260424-WA0598.jpg', '/IMG-20260424-WA0144.jpg', '/IMG-20260424-WA0145.jpg', '/IMG-20260424-WA0146.jpg'], 
+    images: ['/IMG-20260424-WA0144.jpg', '/IMG-20260424-WA0145.jpg', '/IMG-20260424-WA0146.jpg'], 
     stock: 2, 
     colors: ['Prata'],
     colorImages: {
@@ -559,11 +564,11 @@ export const PRODUCTS: Product[] = [
     name: 'Trio quadradinho reto', 
     price: 147.90, 
     category: 'Brincos', 
-    images: ['/IMG-20260424-WA0601.jpg', '/IMG-20260424-WA0152.jpg', '/IMG-20260424-WA0153.jpg'], 
+    images: [], 
     stock: 2, 
     colors: ['Prata'],
     colorImages: {
-      'Prata': '/IMG-20260424-WA0601.jpg'
+      'Prata': ''
     },
     description: 'Design minimalista e geométrico para quem ama um estilo moderno. O trio quadradinho reto é versátil e traz um ar de sofisticação geométrica para sua composição.'
   },
@@ -572,7 +577,7 @@ export const PRODUCTS: Product[] = [
     name: 'Trio Quadradinho Slim', 
     price: 147.90, 
     category: 'Brincos', 
-    images: ['/IMG-20260424-WA0181.jpg', '/IMG-20260424-WA0176.jpg', '/IMG-20260424-WA0178.jpg'], 
+    images: [], 
     stock: 2, 
     colors: ['Dourado', 'Prata'],
     colorImages: {
@@ -586,15 +591,15 @@ export const PRODUCTS: Product[] = [
     name: 'Trio argola bolinhas', 
     price: 147.90, 
     category: 'Brincos', 
-    images: ['/IMG-20260424-WA0163.jpg', '/IMG-20260424-WA0167.jpg', '/IMG-20260424-WA0169.jpg', '/IMG-20260424-WA0171.jpg'], 
+    images: [], 
     stock: 2, 
     colors: ['Prata'],
     colorImages: {
-      'Prata': '/IMG-20260424-WA0163.jpg'
+      'Prata': ''
     },
     description: 'Textura e movimento definem esse trio. As esferas polidas captam a luz de forma única, criando um visual dinâmico e moderno.'
   },
-  { id: 'b-6', name: 'Trio Argola Gotas', price: 168.90, category: 'Brincos', images: ['/IMG-20260424-WA0173.jpg', '/IMG-20260424-WA0172.jpg'], stock: 2, colors: ['Prata'] },
+  { id: 'b-6', name: 'Trio Argola Gotas', price: 168.90, category: 'Brincos', images: [], stock: 2, colors: ['Prata'] },
   { 
     id: 'b-7', 
     name: 'Argolinha pedra marrom oval', 
@@ -814,14 +819,14 @@ export const PRODUCTS: Product[] = [
   { id: 'a-5', name: 'Anel tartaruga azul', price: 104.90, category: 'Anéis', images: ['/IMG-20260424-WA0463.jpg', '/IMG-20260424-WA0464.jpg'], stock: 3, colors: ['Prata'] },
   { id: 'a-6', name: 'Anel solitário slim', price: 88.90, category: 'Anéis', images: ['/IMG-20260424-WA0467.jpg'], stock: 4, colors: ['Dourado'] },
   { id: 'a-7', name: 'Anel estrela do mar regulável', price: 87.90, category: 'Anéis', images: ['/IMG-20260424-WA0474.jpg', '/IMG-20260424-WA0477.jpg', '/IMG-20260424-WA0476.jpg', '/IMG-20260424-WA0467.jpg'], stock: 3, colors: ['Dourado'] },
-  { id: 'a-8', name: 'Anel medalha sol regulável', price: 77.90, category: 'Anéis', images: ['/IMG-20260424-WA0477.jpg', '/IMG-20260424-WA0483.jpg'], stock: 1, colors: ['Dourado'] },
+  { id: 'a-8', name: 'Anel medalha sol regulável', price: 77.90, category: 'Anéis', images: ['/IMG-20260424-WA0483.jpg'], stock: 1, colors: ['Dourado'] },
 
   // NOVOS ITENS - BOHO
-  { id: 'bo-1', name: 'Colar lenço marrom coração', price: 94.90, category: 'Colares', subcategory: 'Boho', images: ['/1000247603.jpg', '/1000247594.jpg', '/1000247605.jpg', '/1000247601.jpg'], stock: 2, colors: ['Marrom'] },
-  { id: 'bo-2', name: 'Choker camurça coração', price: 54.90, category: 'Colares', subcategory: 'Boho', images: ['/1000247618.jpg', '/1000247615.jpg', '/1000247622.jpg', '/1000247628.jpg'], stock: 3, colors: ['Preto'] },
-  { id: 'bo-3', name: 'Choker camurça orgânico', price: 61.90, category: 'Colares', subcategory: 'Boho', images: ['/1000247637.jpg', '/1000247664.jpg', '/1000247643.jpg', '/1000247650.jpg', '/1000247659.jpg', '/1000247658.jpg'], stock: 2, colors: ['Marrom'] },
-  { id: 'bo-4', name: 'Colar Lenço Marrom Pedra Oval', price: 73.90, category: 'Colares', subcategory: 'Boho', images: ['/1000247675.jpg', '/1000247695.jpg', '/1000247684.jpg', '/1000247689.jpg'], stock: 3, colors: ['Marrom'], imageStyle: 'scale-[1.8]' },
-  { id: 'bo-5', name: 'Choker malha telha', price: 89.90, category: 'Colares', subcategory: 'Boho', images: ['/1000247581.jpg'], stock: 2, colors: ['Dourado'] },
+  { id: 'bo-1', name: 'Colar lenço marrom coração', price: 94.90, category: 'Colares', subcategory: 'Boho', images: ['/IMG-20260424-WA0541.jpg', '/IMG-20260424-WA0543.jpg', '/IMG-20260424-WA0545.jpg'], stock: 2, colors: ['Marrom'] },
+  { id: 'bo-2', name: 'Choker camurça coração', price: 54.90, category: 'Colares', subcategory: 'Boho', images: ['/IMG-20260424-WA0495.jpg', '/IMG-20260424-WA0496.jpg'], stock: 3, colors: ['Preto'] },
+  { id: 'bo-3', name: 'Choker camurça orgânico', price: 61.90, category: 'Colares', subcategory: 'Boho', images: ['/IMG-20260424-WA0498.jpg'], stock: 2, colors: ['Marrom'] },
+  { id: 'bo-4', name: 'Colar Lenço Marrom Pedra Oval', price: 73.90, category: 'Colares', subcategory: 'Boho', images: [], stock: 3, colors: ['Marrom'], imageStyle: 'scale-[1.8]' },
+  { id: 'bo-5', name: 'Choker malha telha', price: 89.90, category: 'Colares', subcategory: 'Boho', images: [], stock: 2, colors: ['Dourado'] },
 
   // NOVOS ITENS - BRINCOS
   { 
@@ -866,21 +871,23 @@ export const PRODUCTS: Product[] = [
   },
 
   // NOVOS ITENS - ANÉIS
-  { id: 'a-9', name: 'Anel croissant coração marrom', price: 89.90, category: 'Anéis', subcategory: 'Boho', images: ['/IMG-20260424-WA0485.jpg', '/IMG-20260424-WA0486.jpg', '/IMG-20260424-WA0477.jpg'], stock: 3, colors: ['Marrom'] },
-  { id: 'a-10', name: 'Anel croissant marrom', price: 89.90, category: 'Anéis', subcategory: 'Boho', images: ['/IMG-20260424-WA0502.jpg', '/IMG-20260424-WA0504.jpg', '/IMG-20260424-WA0503.jpg', '/IMG-20260424-WA0498.jpg'], stock: 2, colors: ['Marrom'] },
+  { id: 'a-9', name: 'Anel croissant coração marrom', price: 89.90, category: 'Anéis', subcategory: 'Boho', images: ['/IMG-20260424-WA0485.jpg', '/IMG-20260424-WA0486.jpg'], stock: 3, colors: ['Marrom'] },
+  { id: 'a-10', name: 'Anel croissant marrom', price: 89.90, category: 'Anéis', subcategory: 'Boho', images: ['/IMG-20260424-WA0502.jpg', '/IMG-20260424-WA0504.jpg', '/IMG-20260424-WA0503.jpg'], stock: 2, colors: ['Marrom'] },
   { id: 'a-11', name: 'Anel mandala lua', price: 79.90, category: 'Anéis', subcategory: 'Boho', images: ['/IMG-20260424-WA0508.jpg', '/IMG-20260424-WA0510.jpg'], stock: 1, colors: ['Prata'] },
   { id: 'a-12', name: 'Anel indiano', price: 79.90, category: 'Anéis', subcategory: 'Boho', images: ['/IMG-20260424-WA0514.jpg', '/IMG-20260424-WA0516.jpg'], stock: 3, colors: ['Prata'] },
   { id: 'a-13', name: 'Anel folha de outono regulável', price: 89.90, category: 'Anéis', subcategory: 'Boho', images: ['/IMG-20260424-WA0520.jpg', '/IMG-20260424-WA0521.jpg', '/IMG-20260424-WA0522.jpg'], stock: 1, colors: ['Prata'] },
   { id: 'a-14', name: 'Anel flor de lótus', price: 79.90, category: 'Anéis', subcategory: 'Boho', images: ['/IMG-20260424-WA0524.jpg', '/IMG-20260424-WA0535.jpg'], stock: 2, colors: ['Prata'] },
   { id: 'a-16', name: 'Anel concha', price: 69.90, category: 'Anéis', subcategory: 'Boho', images: ['/IMG-20260424-WA0539.jpg', '/IMG-20260424-WA0537.jpg'], stock: 1, colors: ['Prata'] },
-  { id: 'a-18', name: 'Anel sol perola regulável', price: 89.90, category: 'Anéis', subcategory: 'Boho', images: ['/IMG-20260424-WA0550.jpg', '/IMG-20260424-WA0549.jpg', '/IMG-20260424-WA0551.jpg'], stock: 1, colors: ['Dourado'] },
-  { id: 'a-17', name: 'Anel duplo regulável', price: 89.90, category: 'Anéis', subcategory: 'Boho', images: ['/IMG-20260424-WA0557.jpg', '/IMG-20260424-WA0559.jpg', '/IMG-20260424-WA0560.jpg'], stock: 2, colors: ['Prata'] },
+  { id: 'a-18', name: 'Anel sol perola regulável', price: 89.90, category: 'Anéis', subcategory: 'Boho', images: ['/IMG-20260424-WA0550.jpg', '/IMG-20260424-WA0549.jpg', '/IMG-20260424-WA0551.jpg'], video: '/VID-20260424-WA0562.mp4', videoPoster: '/IMG-20260424-WA0550.jpg', stock: 1, colors: ['Dourado'] },
+  { id: 'a-17', name: 'Anel duplo regulável', price: 89.90, category: 'Anéis', subcategory: 'Boho', images: ['/IMG-20260424-WA0557.jpg', '/IMG-20260424-WA0559.jpg', '/IMG-20260424-WA0560.jpg'], video: '/VID-20260424-WA0561.mp4', videoPoster: '/IMG-20260424-WA0557.jpg', stock: 2, colors: ['Prata'] },
   { 
     id: 'a-19', 
     name: 'Anel trevo texturizado', 
     price: 89.90, 
     category: 'Anéis', 
     images: ['/IMG-20260424-WA0563.jpg', '/IMG-20260424-WA0564.jpg'], 
+    video: '/VID-20260424-WA0564.mp4',
+    videoPoster: '/IMG-20260424-WA0563.jpg',
     stock: 3, 
     colors: ['Dourado'],
     description: 'Um anel que une a sorte do trevo com uma textura acetinada deslumbrante. Sua forma clássica ganha um toque contemporâneo através do acabamento rico em detalhes, perfeito para brilhar em qualquer ocasião.'
@@ -891,6 +898,8 @@ export const PRODUCTS: Product[] = [
     price: 94.90, 
     category: 'Anéis', 
     images: ['/IMG-20260424-WA0580.jpg'], 
+    video: '/VID-20260424-WA0582.mp4',
+    videoPoster: '/IMG-20260424-WA0580.jpg',
     stock: 2, 
     colors: ['Dourado'],
     description: 'Um anel sofisticado com cravação impecável que reluz elegância. O design entrelaçado traz um ar de modernidade e luxo para suas composições.',
@@ -901,7 +910,7 @@ export const PRODUCTS: Product[] = [
     name: 'Anel dedinho', 
     price: 69.90, 
     category: 'Anéis', 
-    images: ['/IMG-20260424-WA0583.jpg', '/IMG-20260424-WA0607.jpg', '/IMG-20260424-WA0608.jpg'], 
+    images: ['/IMG-20260424-WA0583.jpg'], 
     stock: 4, 
     colors: ['Dourado'],
     description: 'O clássico anel de dedinho com acabamento liso e polido. Minimalista e atemporal, é a peça perfeita para criar mix de anéis cheios de estilo.',
@@ -912,7 +921,7 @@ export const PRODUCTS: Product[] = [
     name: 'Anel cravejado slim', 
     price: 59.90, 
     category: 'Anéis', 
-    images: ['/IMG-20260424-WA0586.jpg', '/IMG-20260424-WA0607.jpg'], 
+    images: ['/IMG-20260424-WA0586.jpg'], 
     stock: 5, 
     colors: ['Dourado'],
     description: 'Um anel cravejado slim com mini zircônias que trazem um brilho delicado e sofisticado. Ideal para usar solitário ou em composições de falanje e mix de anéis.',
@@ -1007,7 +1016,7 @@ export const PRODUCTS: Product[] = [
     name: 'Colar longo pontos de luz', 
     price: 89.90, 
     category: 'Colares', 
-    images: ['/IMG-20260424-WA0602.jpg', '/IMG-20260424-WA0675.jpg'], 
+    images: ['/IMG-20260424-WA0602.jpg'], 
     stock: 3, 
     colors: ['Dourado'],
     description: 'Um acessório versátil e iluminado. Este colar longo banhado a ouro é intercalado com delicados pontos de luz que captam e refletem o brilho de forma sutil. Perfeito para usar sozinho ou em camadas com outros colares.',
@@ -1019,7 +1028,7 @@ export const PRODUCTS: Product[] = [
     price: 94.90, 
     category: 'Colares', 
     subcategory: 'Chokers', 
-    images: ['/IMG-20260424-WA0615.jpg', '/IMG-20260424-WA0675.jpg', '/IMG-20260424-WA0616.jpg'], 
+    images: ['/IMG-20260424-WA0615.jpg', '/IMG-20260424-WA0616.jpg'], 
     stock: 4, 
     colors: ['Dourado'],
     description: 'A delicadeza em forma de choker. Com pequenas gotas de cristais penduradas que brilham intensamente a cada movimento, esta peça banhada a ouro traz um ar romântico e sofisticado para o seu colo.',
