@@ -23,11 +23,11 @@ export const PRODUCTS: Product[] = [
     price: 74.90, 
     category: 'Colares', 
     images: [
-      '/IMG-20250124-WA0225.jpg',
-      '/IMG-20250124-WA0223.jpg',
-      '/IMG-20250124-WA0222.jpg',
-      '/IMG-20250124-WA0221.jpg',
-      '/IMG-20250124-WA0220.jpg'
+      '/IMG-20260423-WA0225.jpg',
+      '/IMG-20260423-WA0227.jpg',
+      '/IMG-20260423-WA0229.jpg',
+      '/IMG-20260423-WA0231.jpg',
+      '/IMG-20260423-WA0233.jpg'
     ], 
     stock: 4, 
     colors: ['Dourado', 'Prata'],
@@ -40,8 +40,8 @@ export const PRODUCTS: Product[] = [
     price: 53.90, 
     category: 'Colares', 
     images: [
-      '/IMG-20260424-WA0242.jpg',
-      '/IMG-20260424-WA0243.jpg'
+      '/IMG-20260423-WA0238.jpg',
+      '/IMG-20260423-WA0240.jpg'
     ], 
     stock: 3, 
     colors: ['Dourado'],
@@ -54,14 +54,11 @@ export const PRODUCTS: Product[] = [
     price: 69.90, 
     category: 'Colares', 
     images: [
-      '/IMG-20260424-WA0246.jpg',
-      '/IMG-20260423-WA0246.jpg',
-      '/IMG-20260424-WA0247.jpg',
-      '/IMG-20260423-WA0248.jpg',
-      '/IMG-20260424-WA0250.jpg',
       '/IMG-20260423-WA0250.jpg',
-      '/IMG-20260424-WA0252.jpg',
-      '/IMG-20260423-WA0252.jpg'
+      '/IMG-20260423-WA0246.jpg',
+      '/IMG-20260423-WA0248.jpg',
+      '/IMG-20260423-WA0252.jpg',
+      '/IMG-20260423-WA0254.jpg'
     ], 
     stock: 3, 
     colors: ['Dourado'],
@@ -74,9 +71,9 @@ export const PRODUCTS: Product[] = [
     price: 87.90, 
     category: 'Colares', 
     images: [
-      '/IMG-20260424-WA0262.jpg',
-      '/IMG-20260424-WA0264.jpg',
-      '/IMG-20260424-WA0266.jpg'
+      '/IMG-20260423-WA0261.jpg',
+      '/IMG-20260423-WA0263.jpg',
+      '/IMG-20260423-WA0265.jpg'
     ], 
     stock: 3, 
     colors: ['Dourado'],
@@ -84,13 +81,9 @@ export const PRODUCTS: Product[] = [
     measurements: { length: '45cm', extender: '5cm' }
   },
   { id: 'c-5', name: 'Colar mini relicário', price: 102.90, category: 'Colares', images: [
-      '/IMG-20260424-WA0271.jpg',
       '/IMG-20260423-WA0271.jpg',
-      '/IMG-20260424-WA0274.jpg',
-      '/IMG-20260424-WA0276.jpg',
-      '/IMG-20260423-WA0276.jpg',
-      '/IMG-20260424-WA0278.jpg',
-      '/IMG-20260423-WA0278.jpg'
+      '/IMG-20260423-WA0278.jpg',
+      '/IMG-20260423-WA0276.jpg'
     ], stock: 2, colors: ['Dourado', 'Prata'] },
   { 
     id: 'c-6', 
@@ -98,9 +91,9 @@ export const PRODUCTS: Product[] = [
     price: 116.90, 
     category: 'Colares', 
     images: [
-      '/IMG-20260424-WA0280.jpg',
-      '/IMG-20260424-WA0283.jpg',
-      '/IMG-20260424-WA0285.jpg'
+      '/IMG-20260423-WA0284.jpg',
+      '/IMG-20260423-WA0282.jpg',
+      '/IMG-20260423-WA0280.jpg'
     ], 
     stock: 3, 
     colors: ['Dourado'],
@@ -113,8 +106,10 @@ export const PRODUCTS: Product[] = [
     price: 116.90, 
     category: 'Colares', 
     images: [
-      '/IMG-20260424-WA0432.jpg',
-      '/IMG-20260424-WA0433.jpg'
+      '/IMG-20260423-WA0290.jpg',
+      '/IMG-20260423-WA0292.jpg',
+      '/IMG-20260423-WA0294.jpg',
+      '/IMG-20260423-WA0296.jpg'
     ], 
     stock: 3, 
     colors: ['Dourado'],
@@ -127,11 +122,9 @@ export const PRODUCTS: Product[] = [
     price: 119.90, 
     category: 'Colares', 
     images: [
-      '/IMG-20260424-WA0343.jpg',
-      '/IMG-20260424-WA0345.jpg',
-      '/IMG-20260424-WA0347.jpg',
-      '/IMG-20260424-WA0349.jpg',
-      '/IMG-20260424-WA0351.jpg'
+      '/IMG-20260423-WA0315.jpg',
+      '/IMG-20260423-WA0311.jpg',
+      '/IMG-20260423-WA0313.jpg'
     ], 
     stock: 3, 
     colors: ['Dourado', 'Prata'],
@@ -145,10 +138,8 @@ export const PRODUCTS: Product[] = [
     category: 'Colares', 
     subcategory: 'Chokers', 
     images: [
-      '/IMG-20260424-WA0363.jpg',
-      '/IMG-20260424-WA0366.jpg',
-      '/IMG-20260424-WA0367.jpg',
-      '/IMG-20260424-WA0368.jpg'
+      '/IMG-20260423-WA0120.jpg',
+      '/IMG-20260423-WA0122.jpg'
     ], 
     stock: 3, 
     colors: ['Dourado'] 
@@ -159,12 +150,8 @@ export const PRODUCTS: Product[] = [
     price: 140.90, 
     category: 'Colares', 
     images: [
-      '/IMG-20260424-WA0008.jpg',
-      '/IMG-20260423-WA0024.jpg',
-      '/IMG-20260423-WA0031.jpg',
-      '/IMG-20260423-WA0033.jpg',
-      '/IMG-20260423-WA0035.jpg',
-      '/IMG-20260424-WA0072.jpg'
+      '/IMG-20260423-WA0273.jpg',
+      '/IMG-20260423-WA0275.jpg'
     ], 
     stock: 3, 
     colors: ['Dourado'],
@@ -178,10 +165,8 @@ export const PRODUCTS: Product[] = [
     category: 'Colares', 
     subcategory: 'Chokers', 
     images: [
-      '/IMG-20260424-WA0380.jpg',
-      '/IMG-20260424-WA0381.jpg',
-      '/IMG-20260424-WA0382.jpg',
-      '/IMG-20260424-WA0385.jpg'
+      '/IMG-20260423-WA0321.jpg',
+      '/IMG-20260423-WA0125.jpg'
     ], 
     stock: 3, 
     colors: ['Dourado'] 
@@ -192,11 +177,8 @@ export const PRODUCTS: Product[] = [
     price: 95.90, 
     category: 'Colares', 
     images: [
-      '/IMG-20260424-WA0371.jpg',
-      '/IMG-20260424-WA0374.jpg',
-      '/IMG-20260424-WA0376.jpg',
-      '/IMG-20260424-WA0377.jpg',
-      '/IMG-20260424-WA0378.jpg'
+      '/IMG-20260423-WA0130.jpg',
+      '/IMG-20260423-WA0132.jpg'
     ], 
     stock: 3, 
     colors: ['Dourado'] 
@@ -207,13 +189,8 @@ export const PRODUCTS: Product[] = [
     price: 86.90, 
     category: 'Colares', 
     images: [
-      '/IMG-20260424-WA0003.jpg',
-      '/IMG-20260424-WA0005.jpg',
-      '/IMG-20260423-WA0037.jpg',
-      '/IMG-20260423-WA0040.jpg',
-      '/IMG-20260423-WA0043.jpg',
-      '/IMG-20260424-WA0078.jpg',
-      '/IMG-20260424-WA0081.jpg'
+      '/IMG-20260423-WA0139.jpg',
+      '/IMG-20260423-WA0141.jpg'
     ], 
     stock: 2, 
     colors: ['Dourado'],
@@ -225,11 +202,22 @@ export const PRODUCTS: Product[] = [
     price: 104.90, 
     category: 'Colares', 
     images: [
-      '/IMG-20260424-WA0607.jpg',
-      '/IMG-20260424-WA0608.jpg'
+      '/IMG-20260423-WA0147.jpg',
+      '/IMG-20260423-WA0149.jpg'
     ], 
     stock: 3, 
     colors: ['Prata'] 
+  },
+  { 
+    id: 'c-15', 
+    name: 'Colar pedra cristal orgânico', 
+    price: 89.90, 
+    category: 'Colares', 
+    images: [
+      '/IMG-20260423-WA0271.jpg'
+    ], 
+    stock: 2, 
+    colors: ['Dourado']
   },
   { 
     id: 'c-16', 
@@ -237,14 +225,24 @@ export const PRODUCTS: Product[] = [
     price: 74.90, 
     category: 'Colares', 
     images: [
-      '/IMG-20260424-WA0308.jpg',
-      '/IMG-20260424-WA0311.jpg',
-      '/IMG-20260424-WA0312.jpg'
+      '/IMG-20260423-WA0358.jpg',
+      '/IMG-20260423-WA0360.jpg'
     ], 
     stock: 3, 
     colors: ['Prata'],
     description: 'A delicadeza das pérolas encontra o romantismo do coração cravejado neste colar banhado a prata. Uma peça que une o clássico e o moderno com perfeição.',
     measurements: { length: '40cm', extender: '5cm' }
+  },
+  { 
+    id: 'c-17', 
+    name: 'Colar bolinha coração cravejado', 
+    price: 89.90, 
+    category: 'Colares', 
+    images: [
+      '/IMG-20260423-WA0364.jpg'
+    ], 
+    stock: 5, 
+    colors: ['Prata']
   },
   { 
     id: 'c-18', 
@@ -253,14 +251,8 @@ export const PRODUCTS: Product[] = [
     category: 'Colares', 
     subcategory: 'Chokers', 
     images: [
-      '/IMG-20260424-WA0321.jpg',
-      '/IMG-20260424-WA0322.jpg',
-      '/IMG-20260424-WA0326.jpg',
-      '/IMG-20260424-WA0328.jpg',
-      '/IMG-20260424-WA0329.jpg',
-      '/IMG-20260424-WA0330.jpg',
-      '/IMG-20260424-WA0331.jpg',
-      '/IMG-20260424-WA0333.jpg'
+      '/IMG-20260423-WA0173.jpg',
+      '/IMG-20260423-WA0175.jpg'
     ], 
     stock: 3, 
     colors: ['Prata'],
@@ -273,16 +265,8 @@ export const PRODUCTS: Product[] = [
     price: 73.90, 
     category: 'Colares', 
     images: [
-      '/IMG-20260424-WA0390.jpg',
-      '/IMG-20260424-WA0391.jpg',
-      '/IMG-20260424-WA0392.jpg',
-      '/IMG-20260424-WA0394.jpg',
-      '/IMG-20260424-WA0399.jpg',
-      '/IMG-20260424-WA0401.jpg',
-      '/IMG-20260424-WA0402.jpg',
-      '/IMG-20260424-WA0403.jpg',
-      '/IMG-20260424-WA0404.jpg',
-      '/IMG-20260424-WA0406.jpg'
+      '/IMG-20260423-WA0179.jpg',
+      '/IMG-20260423-WA0181.jpg'
     ], 
     stock: 2, 
     colors: ['Prata'] 
@@ -294,8 +278,8 @@ export const PRODUCTS: Product[] = [
     category: 'Colares', 
     subcategory: 'Chokers', 
     images: [
-      '/IMG-20260424-WA0409.jpg',
-      '/IMG-20260424-WA0410.jpg'
+      '/IMG-20260423-WA0187.jpg',
+      '/IMG-20260423-WA0189.jpg'
     ], 
     video: '/VID-20260424-WA0411.mp4',
     videoPoster: '/IMG-20260424-WA0409.jpg',
@@ -309,13 +293,9 @@ export const PRODUCTS: Product[] = [
     category: 'Colares', 
     subcategory: 'Chokers', 
     images: [
-      '/IMG-20260424-WA0006.jpg',
-      '/IMG-20260423-WA0050.jpg',
-      '/IMG-20260423-WA0052.jpg',
-      '/IMG-20260423-WA0054.jpg',
-      '/IMG-20260423-WA0056.jpg',
-      '/IMG-20260424-WA0083.jpg',
-      '/IMG-20260424-WA0084.jpg'
+      '/IMG-20260423-WA0202.jpg',
+      '/IMG-20260423-WA0200.jpg',
+      '/IMG-20260423-WA0198.jpg'
     ], 
     stock: 3, 
     colors: ['Dourado'] 
@@ -328,8 +308,8 @@ export const PRODUCTS: Product[] = [
     price: 67.90, 
     category: 'Pulseiras', 
     images: [
-      '/IMG-20260424-WA0502.jpg',
       '/IMG-20260424-WA0503.jpg',
+      '/IMG-20260424-WA0502.jpg',
       '/IMG-20260424-WA0504.jpg'
     ], 
     stock: 3, 
@@ -347,8 +327,8 @@ export const PRODUCTS: Product[] = [
     price: 74.90, 
     category: 'Pulseiras', 
     images: [
-      '/IMG-20260424-WA0474.jpg',
       '/IMG-20260424-WA0476.jpg',
+      '/IMG-20260424-WA0474.jpg',
       '/IMG-20260424-WA0477.jpg'
     ], 
     stock: 3, 
@@ -366,8 +346,6 @@ export const PRODUCTS: Product[] = [
     price: 60.90, 
     category: 'Pulseiras', 
     images: [
-      '/IMG-20260424-WA0135.jpg',
-      '/IMG-20260424-WA0139.jpg',
       '/IMG-20260423-WA0137.jpg',
       '/IMG-20260423-WA0139.jpg'
     ], 
@@ -382,10 +360,6 @@ export const PRODUCTS: Product[] = [
     price: 71.90, 
     category: 'Pulseiras', 
     images: [
-      '/IMG-20260424-WA0140.jpg',
-      '/IMG-20260424-WA0144.jpg',
-      '/IMG-20260424-WA0145.jpg',
-      '/IMG-20260424-WA0146.jpg',
       '/IMG-20260423-WA0143.jpg',
       '/IMG-20260423-WA0145.jpg',
       '/IMG-20260423-WA0149.jpg'
@@ -403,12 +377,10 @@ export const PRODUCTS: Product[] = [
     price: 74.90, 
     category: 'Pulseiras', 
     images: [
-      '/IMG-20260424-WA0152.jpg',
-      '/IMG-20260424-WA0153.jpg',
+      '/IMG-20260423-WA0158.jpg',
       '/IMG-20260423-WA0154.jpg',
       '/IMG-20260423-WA0156.jpg',
       '/IMG-20260423-WA0157.jpg',
-      '/IMG-20260423-WA0158.jpg',
       '/IMG-20260423-WA0159.jpg',
       '/IMG-20260423-WA0160.jpg'
     ], 
@@ -425,14 +397,13 @@ export const PRODUCTS: Product[] = [
   },
   { 
     id: 'p-5', 
-    name: 'Pulseira dupla concha e cristais', 
+    name: 'Pulseira elo português e trevo', 
     price: 74.90, 
     category: 'Pulseiras', 
     images: [
-      '/IMG-20260424-WA0163.jpg',
-      '/IMG-20260424-WA0167.jpg',
-      '/IMG-20260424-WA0168.jpg',
-      '/IMG-20260424-WA0169.jpg'
+      '/IMG-20260423-WA0165.jpg',
+      '/IMG-20260423-WA0167.jpg',
+      '/IMG-20260423-WA0169.jpg'
     ], 
     stock: 3, 
     colors: ['Dourado', 'Prata'],
@@ -442,8 +413,21 @@ export const PRODUCTS: Product[] = [
     },
     video: '/VID-20260424-WA0158.mp4',
     videoPoster: '/IMG-20260424-WA0163.jpg',
-    description: 'Uma composição poética que une a delicadeza dos cristais à simbolismo da concha. Esta pulseira dupla é a escolha perfeita para quem busca um acessório com movimento e sofisticação. O brilho dos cristais complementa perfeitamente o detalhe central, criando um visual náutico chic.',
-    measurements: { length: '16cm', extender: '5cm' }
+    description: 'A clássica corrente de elo português ganha um charme extra com o pingente de trevo acetinado. Uma pulseira versátil que une sorte e sofisticação de forma equilibrada. Disponível nos banhos dourado e prata.',
+    measurements: { length: '16cm', extender: '4cm' }
+  },
+  { 
+    id: 'p-6', 
+    name: 'Pulseira elos orgânicos', 
+    price: 74.90, 
+    category: 'Pulseiras', 
+    images: [
+      '/IMG-20260423-WA0104.jpg',
+      '/IMG-20260423-WA0106.jpg',
+      '/IMG-20260423-WA0108.jpg'
+    ], 
+    stock: 2, 
+    colors: ['Dourado']
   },
   { 
     id: 'p-7', 
@@ -451,8 +435,10 @@ export const PRODUCTS: Product[] = [
     price: 88.90, 
     category: 'Pulseiras', 
     images: [
-      '/IMG-20260424-WA0598.jpg',
-      '/IMG-20260424-WA0601.jpg'
+      '/IMG-20260423-WA0110.jpg',
+      '/IMG-20260423-WA0112.jpg',
+      '/IMG-20260423-WA0114.jpg',
+      '/IMG-20260423-WA0116.jpg'
     ],
     stock: 3, 
     colors: ['Dourado', 'Prata'],
@@ -469,7 +455,11 @@ export const PRODUCTS: Product[] = [
     price: 72.90, 
     category: 'Pulseiras', 
     images: [
-      '/IMG-20260424-WA0181.jpg'
+      '/IMG-20260423-WA0328.jpg',
+      '/IMG-20260423-WA0330.jpg',
+      '/IMG-20260423-WA0332.jpg',
+      '/IMG-20260423-WA0334.jpg',
+      '/IMG-20260423-WA0336.jpg'
     ], 
     stock: 1, 
     colors: ['Dourado'],
@@ -482,9 +472,8 @@ export const PRODUCTS: Product[] = [
     price: 128.90, 
     category: 'Pulseiras', 
     images: [
-      '/IMG-20260424-WA0171.jpg',
-      '/IMG-20260424-WA0172.jpg',
-      '/IMG-20260424-WA0173.jpg'
+      '/IMG-20260423-WA0343.jpg',
+      '/IMG-20260423-WA0345.jpg'
     ], 
     stock: 2, 
     colors: ['Dourado', 'Prata'],
@@ -495,18 +484,25 @@ export const PRODUCTS: Product[] = [
     description: 'Um bracelete com design orgânico e textura martelada que traz uma modernidade absoluta para o pulso. Sua forma ondulada e acabamento de alto brilho fazem dele uma peça statement, perfeita para ser usada sozinha ou em dupla para um visual ainda mais impactante.'
   },
   { 
+    id: 'p-10', 
+    name: 'Pulseira pérolas e sol', 
+    price: 79.90, 
+    category: 'Pulseiras', 
+    images: [
+      '/IMG-20260423-WA0343.jpg',
+      '/IMG-20260423-WA0345.jpg'
+    ], 
+    stock: 2, 
+    colors: ['Dourado']
+  },
+  { 
     id: 'p-11', 
     name: 'Bracelete sol pérola', 
     price: 79.90, 
     category: 'Pulseiras', 
     images: [
-      '/IMG-20260424-WA0181.jpg',
-      '/IMG-20260424-WA0185.jpg',
-      '/IMG-20260424-WA0186.jpg',
-      '/IMG-20260424-WA0187.jpg',
-      '/IMG-20260424-WA0189.jpg',
-      '/IMG-20260424-WA0191.jpg',
-      '/IMG-20260424-WA0193.jpg'
+      '/IMG-20260423-WA0350.jpg',
+      '/IMG-20260423-WA0352.jpg'
     ], 
     stock: 2, 
     colors: ['Dourado', 'Prata'],
@@ -522,7 +518,9 @@ export const PRODUCTS: Product[] = [
     price: 82.90, 
     category: 'Pulseiras', 
     images: [
-      '/IMG-20260424-WA0611.jpg'
+      '/IMG-20260423-WA0208.jpg',
+      '/IMG-20260423-WA0106.jpg',
+      '/IMG-20260423-WA0210.jpg'
     ], 
     stock: 3, 
     colors: ['Dourado'],
@@ -534,7 +532,8 @@ export const PRODUCTS: Product[] = [
     price: 50.90, 
     category: 'Pulseiras', 
     images: [
-      '/IMG-20260424-WA0205.jpg'
+      '/IMG-20260423-WA0215.jpg',
+      '/IMG-20260423-WA0217.jpg'
     ], 
     stock: 3, 
     colors: ['Prata'],
@@ -547,14 +546,25 @@ export const PRODUCTS: Product[] = [
     price: 171.90, 
     category: 'Pulseiras', 
     images: [
-      '/IMG-20260424-WA0217.jpg',
-      '/IMG-20260424-WA0218.jpg',
-      '/IMG-20260424-WA0219.jpg'
+      '/IMG-20260423-WA0221.jpg',
+      '/IMG-20260423-WA0223.jpg'
     ], 
     stock: 3, 
     colors: ['Prata'],
-    description: 'Um amuleto clássico de proteção. Esta pulseira traz a pureza do sal grosso em um compartimento de vidro selado com acabamento em prata de alta qualidade. Elegante, minimalista e cheia de significado.',
-    measurements: { length: '17cm', extender: '3cm' }
+    description: 'A delicadeza da madrepérola em formato de trevo, unida à sofisticação do banho de prata. Uma peça leve, feminina e cheia de boas energias para o seu dia a dia.',
+    measurements: { length: '16cm', extender: '4cm' }
+  },
+  { 
+    id: 'p-15', 
+    name: 'Pulseira cravejada slim', 
+    price: 89.90, 
+    category: 'Pulseiras', 
+    images: [
+      '/IMG-20260423-WA0238.jpg',
+      '/IMG-20260423-WA0240.jpg'
+    ], 
+    stock: 2, 
+    colors: ['Prata']
   },
   { 
     id: 'p-17', 
@@ -562,13 +572,8 @@ export const PRODUCTS: Product[] = [
     price: 89.90, 
     category: 'Pulseiras', 
     images: [
-      '/IMG-20260424-WA0293.jpg',
-      '/IMG-20260424-WA0294.jpg',
-      '/IMG-20260424-WA0295.jpg',
-      '/IMG-20260424-WA0297.jpg',
-      '/IMG-20260424-WA0298.jpg',
-      '/IMG-20260424-WA0299.jpg',
-      '/IMG-20260424-WA0301.jpg'
+      '/IMG-20260424-WA0598.jpg',
+      '/IMG-20260424-WA0601.jpg'
     ], 
     stock: 3, 
     colors: ['Prata'],
@@ -581,8 +586,10 @@ export const PRODUCTS: Product[] = [
     price: 72.90, 
     category: 'Pulseiras', 
     images: [
-      '/IMG-20260424-WA0301.jpg',
-      '/IMG-20260424-WA0303.jpg'
+      '/IMG-20260424-WA0528.jpg',
+      '/IMG-20260424-WA0529.jpg',
+      '/IMG-20260424-WA0530.jpg',
+      '/IMG-20260424-WA0531.jpg'
     ], 
     stock: 3, 
     colors: ['Dourado'],
@@ -595,8 +602,8 @@ export const PRODUCTS: Product[] = [
     price: 69.90, 
     category: 'Pulseiras', 
     images: [
-      '/IMG-20260424-WA0592.jpg',
-      '/IMG-20260424-WA0629.jpg'
+      '/IMG-20260424-WA0532.jpg',
+      '/IMG-20260424-WA0533.jpg'
     ], 
     stock: 4, 
     colors: ['Dourado'],
@@ -685,11 +692,12 @@ export const PRODUCTS: Product[] = [
   },
   { 
     id: 'b-7', 
-    name: 'Argolinha pedra marrom oval', 
+    name: 'Brinco sol vazado', 
     price: 67.90, 
     category: 'Brincos', 
     images: [
-      '/IMG-20260424-WA0406.jpg'
+      '/IMG-20260423-WA0305.jpg',
+      '/IMG-20260423-WA0307.jpg'
     ], 
     stock: 2, 
     colors: ['Prata', 'Dourado'],
@@ -700,15 +708,13 @@ export const PRODUCTS: Product[] = [
   },
   { 
     id: 'b-8', 
-    name: 'Argolinha charms praia', 
+    name: 'Argola boho medalhas e pérolas', 
     price: 79.90, 
     category: 'Brincos', 
     images: [
-      '/IMG-20260424-WA0193.jpg',
-      '/IMG-20260424-WA0195.jpg',
-      '/IMG-20260424-WA0196.jpg',
-      '/IMG-20260424-WA0198.jpg',
-      '/IMG-20260424-WA0199.jpg'
+      '/IMG-20260424-WA0326.jpg',
+      '/IMG-20260424-WA0328.jpg',
+      '/IMG-20260424-WA0330.jpg'
     ], 
     stock: 2, 
     colors: ['Prata', 'Dourado'],
@@ -719,25 +725,23 @@ export const PRODUCTS: Product[] = [
   },
   { 
     id: 'b-9', 
-    name: 'Duo argolinha pedra turquesa', 
+    name: 'Brinco correntinhas pérolas', 
     price: 79.90, 
     category: 'Brincos', 
     images: [
-      '/IMG-20260424-WA0205.jpg',
-      '/IMG-20260424-WA0206.jpg',
-      '/IMG-20260424-WA0208.jpg',
-      '/IMG-20260424-WA0209.jpg'
+      '/IMG-20260423-WA0387.jpg'
     ], 
     stock: 2, 
     colors: ['Prata'] 
   },
   { 
     id: 'b-10', 
-    name: 'Argolinha círculo texturizado', 
+    name: 'Brinco correntinhas e bolinhas', 
     price: 42.90, 
     category: 'Brincos', 
     images: [
-      '/IMG-20260424-WA0221.jpg'
+      '/IMG-20260423-WA0393.jpg',
+      '/IMG-20260423-WA0395.jpg'
     ], 
     stock: 2, 
     colors: ['Prata', 'Dourado'],
@@ -752,7 +756,9 @@ export const PRODUCTS: Product[] = [
     price: 42.90, 
     category: 'Brincos', 
     images: [
-      '/IMG-20260424-WA0223.jpg'
+      '/IMG-20260423-WA0398.jpg',
+      '/IMG-20260423-WA0400.jpg',
+      '/IMG-20260423-WA0402.jpg'
     ], 
     stock: 2, 
     colors: ['Prata', 'Dourado'],
@@ -767,9 +773,9 @@ export const PRODUCTS: Product[] = [
     price: 42.90, 
     category: 'Brincos', 
     images: [
-      '/IMG-20260424-WA0234.jpg',
-      '/IMG-20260424-WA0235.jpg',
-      '/IMG-20260424-WA0236.jpg'
+      '/IMG-20260424-WA0402.jpg',
+      '/IMG-20260424-WA0403.jpg',
+      '/IMG-20260424-WA0404.jpg'
     ], 
     stock: 2, 
     colors: ['Prata', 'Dourado'],
@@ -792,42 +798,30 @@ export const PRODUCTS: Product[] = [
     colors: ['Prata'],
     description: 'A elegância do design orgânico encontra a suavidade da pedra branca. Um brinco marcante e sofisticado, banhado a prata, que traz um toque de luz natural para o seu visual.'
   },
-  { 
-    id: 'b-26', 
-    name: 'Brinco orgânico pedra azul marinho', 
-    price: 79.90, 
-    category: 'Brincos', 
-    images: [
+  { id: 'b-15', name: 'Brinco orgânico pedra azul marinho', price: 79.90, category: 'Brincos', images: [
       '/IMG-20260424-WA0495.jpg',
       '/IMG-20260424-WA0496.jpg',
       '/IMG-20260424-WA0498.jpg'
-    ], 
-    stock: 1, 
-    colors: ['Dourado'],
-    description: 'A elegância da pedra azul marinho em um design orgânico e moderno. Banhado a ouro, este brinco é a peça perfeita para um visual de impacto e sofisticação atemporal.'
-  },
-  { id: 'b-15', name: 'Brinco orgânico pérola', price: 87.90, category: 'Brincos', images: [
+    ], stock: 1, colors: ['Dourado'] },
+  { id: 'b-16', name: 'Brinco orgânico pérola', price: 87.90, category: 'Brincos', images: [
       '/IMG-20260423-WA0271.jpg'
     ], stock: 3, colors: ['Dourado', 'Prata'] },
   { 
-    id: 'b-16', 
+    id: 'b-17', 
     name: 'Brinco folha de outono', 
     price: 77.90, 
     category: 'Brincos', 
     images: [
-      '/IMG-20260424-WA0280.jpg',
-      '/IMG-20260423-WA0280.jpg',
-      '/IMG-20260423-WA0282.jpg',
-      '/IMG-20260424-WA0283.jpg',
       '/IMG-20260423-WA0284.jpg',
-      '/IMG-20260424-WA0285.jpg'
+      '/IMG-20260423-WA0282.jpg',
+      '/IMG-20260423-WA0280.jpg'
     ], 
     stock: 2, 
     colors: ['Dourado', 'Prata'],
     description: 'A elegância da natureza traduzida em metal. Este brinco em formato de folha apresenta uma textura orgânica e detalhada que captura a luz de forma única. Disponível nos banhos dourado e prata, é a escolha ideal para adicionar um toque artístico e sofisticado ao seu visual.'
   },
   { 
-    id: 'b-17', 
+    id: 'b-18', 
     name: 'Brinco orgânico', 
     price: 82.90, 
     category: 'Brincos', 
@@ -839,7 +833,7 @@ export const PRODUCTS: Product[] = [
     description: 'Design fluido e moderno com acabamento polido. Este brinco orgânico traz a sofisticação das formas assimétricas, disponível nos banhos de ouro e prata. Uma peça versátil que adiciona um toque contemporâneo a qualquer look.'
   },
   { 
-    id: 'b-18', 
+    id: 'b-19', 
     name: 'Brinco sol pérola', 
     price: 82.90, 
     category: 'Brincos', 
@@ -851,19 +845,6 @@ export const PRODUCTS: Product[] = [
     stock: 2, 
     colors: ['Dourado', 'Prata'],
     description: 'A luminosidade do sol combinada com o clássico da pérola. Este brinco apresenta um design radiante em formato de sol com uma pérola central, trazendo um brilho sofisticado e atemporal. Disponível nos banhos dourado e prata.'
-  },
-  { 
-    id: 'b-19', 
-    name: 'Brinco sol vazado', 
-    price: 67.90, 
-    category: 'Brincos', 
-    images: [
-      '/IMG-20260423-WA0305.jpg',
-      '/IMG-20260423-WA0307.jpg'
-    ], 
-    stock: 2, 
-    colors: ['Dourado', 'Prata'],
-    description: 'Leveza e modernidade em um design radiante. Este brinco sol vazado traz a energia do astro rei em uma forma minimalista e elegante. Disponível nos banhos dourado e prata.'
   },
   { 
     id: 'b-20', 
@@ -881,6 +862,18 @@ export const PRODUCTS: Product[] = [
   },
   { 
     id: 'b-21', 
+    name: 'Brinco estrela do mar cravejado', 
+    price: 91.90, 
+    category: 'Brincos', 
+    images: [
+      '/IMG-20260424-WA0338.jpg'
+    ], 
+    stock: 2, 
+    colors: ['Dourado', 'Prata'],
+    description: 'A beleza do oceano em uma peça delicada e brilhante. Este brinco em formato de estrela do mar é inteiramente cravejado de zircônias, trazendo um brilho sofisticado e um toque náutico moderno para o seu visual. Disponível nos banhos dourado e prata.'
+  },
+  { 
+    id: 'b-27', 
     name: 'Argola boho medalhas e pérolas', 
     price: 91.90, 
     category: 'Brincos', 
@@ -947,12 +940,15 @@ export const PRODUCTS: Product[] = [
       '/IMG-20260424-WA0471.jpg'
     ], stock: 4, colors: ['Dourado'] },
   { id: 'a-7', name: 'Anel estrela do mar regulável', price: 87.90, category: 'Anéis', images: [
-      '/IMG-20260424-WA0467.jpg',
-      '/IMG-20260424-WA0471.jpg'
+      '/IMG-20260424-WA0476.jpg',
+      '/IMG-20260424-WA0474.jpg'
     ], stock: 3, colors: ['Dourado'] },
   { id: 'a-8', name: 'Anel medalha sol regulável', price: 77.90, category: 'Anéis', images: [
-      '/IMG-20260424-WA0483.jpg'
-    ], stock: 1, colors: ['Dourado'] },
+      '/IMG-20260424-WA0481.jpg',
+      '/IMG-20260424-WA0483.jpg',
+      '/IMG-20260424-WA0488.jpg',
+      '/IMG-20260424-WA0489.jpg'
+    ], stock: 3, colors: ['Dourado'] },
 
   // NOVOS ITENS - BOHO
   { id: 'bo-1', name: 'Colar lenço marrom coração', price: 94.90, category: 'Colares', subcategory: 'Boho', images: [
@@ -960,7 +956,7 @@ export const PRODUCTS: Product[] = [
       '/IMG-20260424-WA0543.jpg',
       '/IMG-20260424-WA0545.jpg'
     ], video: '/VID-20260424-WA0542.mp4', videoPoster: '/IMG-20260424-WA0541.jpg', stock: 2, colors: ['Marrom'] },
-  { id: 'bo-2', name: 'Choker camurça coração', price: 54.90, category: 'Colares', subcategory: 'Boho', images: [
+  { id: 'bo-2', name: 'Colar lenço preto e branco', price: 94.90, category: 'Colares', subcategory: 'Boho', images: [
       '/IMG-20260424-WA0495.jpg',
       '/IMG-20260424-WA0496.jpg'
     ], video: '/VID-20260424-WA0496.mp4', videoPoster: '/IMG-20260424-WA0495.jpg', stock: 3, colors: ['Preto'] },
@@ -977,61 +973,13 @@ export const PRODUCTS: Product[] = [
       '/IMG-20260424-WA0445.jpg'
     ], stock: 2, colors: ['Dourado'] },
 
-  // NOVOS ITENS - BRINCOS
-  { 
-    id: 'b-22', 
-    name: 'Brinco coração orgânico', 
-    price: 74.90, 
-    category: 'Brincos', 
-    images: [
-      '/IMG-20260423-WA0364.jpg'
-    ], 
-    stock: 2, 
-    colors: ['Dourado', 'Prata'],
-    description: 'Romantismo com um toque moderno. Este brinco em formato de coração apresenta um design orgânico e fluido, trazendo leveza e sofisticação para the visual. Disponível nos banhos dourado e prata.',
-  },
-  { 
-    id: 'b-23', 
-    name: 'Brinco correntinhas pérolas', 
-    price: 76.90, 
-    category: 'Brincos', 
-    images: [
-      '/IMG-20260423-WA0374.jpg',
-      '/IMG-20260423-WA0376.jpg',
-      '/IMG-20260423-WA0378.jpg'
-    ], 
-    stock: 2, 
-    colors: ['Dourado', 'Prata'],
-    description: 'Delicadeza e movimento em uma única peça. Este brinco de argola traz cascatas de mini pérolas em correntinhas finas, criando um efeito iluminado e sofisticado. Perfeito para ocasiões especiais ou para elevar o look do dia a dia. Disponível nos banhos dourado e prata.',
-  },
-  { 
-    id: 'b-24', 
-    name: 'Argola gotas turquesa moedas boho', 
-    price: 84.90, 
-    category: 'Brincos', 
-    images: [
-      '/IMG-20260423-WA0387.jpg'
-    ], 
-    stock: 2, 
-    colors: ['Prata'],
-    description: 'Estilo boho chic em cada detalhe. Esta argola prateada é adornada com pingentes de gotas em tom turquesa e mini moedas, trazendo um ar cigano e sofisticado para o look. Ideal para quem busca uma peça com personalidade e atitude.',
-  },
-  { 
-    id: 'b-25', 
-    name: 'Brinco correntinhas e bolinhas', 
-    price: 69.90, 
-    category: 'Brincos', 
-    images: [
-      '/IMG-20260424-WA0402.jpg',
-      '/IMG-20260424-WA0403.jpg',
-      '/IMG-20260424-WA0404.jpg'
-    ], 
-    stock: 2, 
-    colors: ['Dourado'],
-    description: 'Um brinco que une o brilho das correntes com o charme das esferas. Esta peça apresenta cascatas de correntinhas douradas intercaladas com pequenas bolinhas, finalizadas com um ponto de luz em cristal. Um design dinâmico e moderno que traz movimento e sofisticação para qualquer produção.',
-  },
-
   // NOVOS ITENS - ANÉIS
+  { id: 'a-15', name: 'Trio búzios e pérola', price: 89.90, category: 'Anéis', images: [
+      '/IMG-20260424-WA0528.jpg',
+      '/IMG-20260424-WA0529.jpg',
+      '/IMG-20260424-WA0530.jpg',
+      '/IMG-20260424-WA0531.jpg'
+    ], stock: 2, colors: ['Prata'] },
   { id: 'a-9', name: 'Anel croissant coração marrom', price: 89.90, category: 'Anéis', subcategory: 'Boho', images: [
       '/IMG-20260424-WA0485.jpg',
       '/IMG-20260424-WA0486.jpg'
@@ -1107,7 +1055,9 @@ export const PRODUCTS: Product[] = [
     price: 69.90, 
     category: 'Anéis', 
     images: [
-      '/IMG-20260424-WA0583.jpg'
+      '/IMG-20260424-WA0583.jpg',
+      '/IMG-20260424-WA0607.jpg',
+      '/IMG-20260424-WA0608.jpg'
     ], 
     stock: 4, 
     colors: ['Dourado'],
@@ -1120,7 +1070,8 @@ export const PRODUCTS: Product[] = [
     price: 59.90, 
     category: 'Anéis', 
     images: [
-      '/IMG-20260424-WA0586.jpg'
+      '/IMG-20260424-WA0586.jpg',
+      '/IMG-20260424-WA0607.jpg'
     ], 
     stock: 5, 
     colors: ['Dourado'],
@@ -1133,7 +1084,8 @@ export const PRODUCTS: Product[] = [
     price: 74.90, 
     category: 'Anéis', 
     images: [
-      '/IMG-20260424-WA0588.jpg'
+      '/IMG-20260424-WA0588.jpg',
+      '/IMG-20260424-WA0609.jpg'
     ], 
     stock: 3, 
     colors: ['Dourado'],
@@ -1146,7 +1098,8 @@ export const PRODUCTS: Product[] = [
     price: 65.90, 
     category: 'Anéis', 
     images: [
-      '/IMG-20260424-WA0589.jpg'
+      '/IMG-20260424-WA0589.jpg',
+      '/IMG-20260424-WA0609.jpg'
     ], 
     stock: 4, 
     colors: ['Dourado'],
@@ -1159,7 +1112,8 @@ export const PRODUCTS: Product[] = [
     price: 64.90, 
     category: 'Anéis', 
     images: [
-      '/IMG-20260424-WA0590.jpg'
+      '/IMG-20260424-WA0590.jpg',
+      '/IMG-20260424-WA0609.jpg'
     ], 
     stock: 4, 
     colors: ['Dourado'],
@@ -1172,7 +1126,8 @@ export const PRODUCTS: Product[] = [
     price: 52.90, 
     category: 'Anéis', 
     images: [
-      '/IMG-20260424-WA0595.jpg'
+      '/IMG-20260424-WA0595.jpg',
+      '/IMG-20260424-WA0629.jpg'
     ], 
     stock: 6, 
     colors: ['Dourado'],
@@ -1182,8 +1137,32 @@ export const PRODUCTS: Product[] = [
   
   // MAIS BRINCOS DOURADOS
   { 
-    id: 'b-29', 
-    name: 'Brinco estrela do mar cravejado', 
+    id: 'b-22', 
+    name: 'Brinco trevo madrepérola', 
+    price: 82.90, 
+    category: 'Brincos', 
+    images: [
+      '/IMG-20260423-WA0364.jpg'
+    ], 
+    stock: 2, 
+    colors: ['Prata']
+  },
+  { 
+    id: 'b-23', 
+    name: 'Brinco correntinhas pérolas', 
+    price: 79.90, 
+    category: 'Brincos', 
+    images: [
+      '/IMG-20260423-WA0374.jpg',
+      '/IMG-20260423-WA0376.jpg',
+      '/IMG-20260423-WA0378.jpg'
+    ], 
+    stock: 2, 
+    colors: ['Dourado']
+  },
+  { 
+    id: 'b-24', 
+    name: 'Brinco cravejado slim', 
     price: 72.90, 
     category: 'Brincos', 
     images: [
@@ -1195,8 +1174,8 @@ export const PRODUCTS: Product[] = [
     imageStyle: 'scale-[1.8]'
   },
   { 
-    id: 'b-30', 
-    name: 'Trio de brincos pontos de luz coloridos', 
+    id: 'b-25', 
+    name: 'Trio pontos de luz coloridos', 
     price: 89.90, 
     category: 'Brincos', 
     images: [
@@ -1213,7 +1192,7 @@ export const PRODUCTS: Product[] = [
     imageStyle: 'scale-[1.2]'
   },
   { 
-    id: 'b-31', 
+    id: 'b-26', 
     name: 'Trio pontos de luz', 
     price: 89.90, 
     category: 'Brincos', 
@@ -1274,7 +1253,7 @@ export const PRODUCTS: Product[] = [
     measurements: { length: '45cm', extender: '5cm' }
   },
   { 
-    id: 'b-32', 
+    id: 'b-28', 
     name: 'Brinco trevo texturizado', 
     price: 49.90, 
     category: 'Brincos', 
@@ -1291,7 +1270,7 @@ export const PRODUCTS: Product[] = [
     imageStyle: 'scale-[1.2]'
   },
   { 
-    id: 'b-33', 
+    id: 'b-29', 
     name: 'Brinco trevo textura', 
     price: 49.90, 
     category: 'Brincos', 
@@ -1308,11 +1287,10 @@ export const PRODUCTS: Product[] = [
     imageStyle: 'scale-[1.2]'
   },
   { 
-    id: 'b-34', 
+    id: 'b-30', 
     name: 'Trio místico', 
     price: 64.90, 
     category: 'Brincos', 
-    subcategory: 'Trios',
     images: [
       '/IMG-20260424-WA0123.jpg'
     ], 
@@ -1324,11 +1302,10 @@ export const PRODUCTS: Product[] = [
     imageStyle: 'scale-[1.2]'
   },
   { 
-    id: 'b-35', 
+    id: 'b-31', 
     name: 'Trio bolinhas', 
     price: 49.90, 
     category: 'Brincos', 
-    subcategory: 'Trios',
     images: [
       '/IMG-20260424-WA0124.jpg'
     ], 
@@ -1340,7 +1317,7 @@ export const PRODUCTS: Product[] = [
     imageStyle: 'scale-[1.2]'
   },
   { 
-    id: 'b-36', 
+    id: 'b-32', 
     name: 'Brinco mini raio', 
     price: 49.90, 
     category: 'Brincos', 
@@ -1355,7 +1332,7 @@ export const PRODUCTS: Product[] = [
     imageStyle: 'scale-[1.2]'
   },
   { 
-    id: 'b-37', 
+    id: 'b-33', 
     name: 'Argola pérola barroca', 
     price: 64.90, 
     category: 'Brincos', 
@@ -1389,7 +1366,7 @@ export const PRODUCTS: Product[] = [
     imageStyle: 'object-bottom'
   },
   { 
-    id: 'b-38', 
+    id: 'b-34', 
     name: 'Argolinha concha', 
     price: 54.90, 
     category: 'Brincos', 
@@ -1402,54 +1379,46 @@ export const PRODUCTS: Product[] = [
     imageStyle: 'scale-[1.2]'
   },
   { 
-    id: 'cj-2', 
-    name: 'Conjunto cravejado', 
+    id: 'b-35', 
+    name: 'Trio estrela pérola e zircônia', 
+    price: 134.90, 
+    category: 'Brincos', 
+    images: [
+      '/IMG-20260423-WA0315.jpg',
+      '/IMG-20260423-WA0311.jpg',
+      '/IMG-20260423-WA0313.jpg'
+    ], stock: 8, colors: ['Prata'] },
+  { 
+    id: 'b-36', 
+    name: 'Duo argolinha pingente', 
     price: 129.90, 
-    category: 'Conjuntos', 
+    category: 'Brincos', 
     images: [
-      '/IMG-20260424-WA0654.jpg',
-      '/IMG-20260424-WA0656.jpg'
-    ], 
-    video: '/VID-20260424-WA0655.mp4',
-    videoPoster: '/IMG-20260424-WA0654.jpg',
-    stock: 5, 
-    colors: ['Azul', 'Lilás'],
-    colorImages: {
-      'Azul': '/IMG-20260424-WA0654.jpg',
-      'Lilás': '/IMG-20260424-WA0656.jpg'
-    },
-    description: 'A sofisticação do brilho clássico em um conjunto deslumbrante. Com cristais cravejados que capturam a luz de forma espetacular, este conjunto de colar e brincos em banho de prata é a escolha ideal para momentos que pedem um toque extra de glamour e elegância.',
-    imageStyle: 'object-center'
-  },
+      '/IMG-20260423-WA0290.jpg',
+      '/IMG-20260423-WA0292.jpg',
+      '/IMG-20260423-WA0294.jpg',
+      '/IMG-20260423-WA0296.jpg'
+    ], stock: 5, colors: ['Prata'] },
   { 
-    id: 'c-25', 
-    name: 'Trio de colares gotas', 
+    id: 'b-37', 
+    name: 'Brinco bolinhas trevo cravejado', 
     price: 149.90, 
-    category: 'Colares', 
+    category: 'Brincos', 
     images: [
-      '/IMG-20260424-WA0660.jpg'
-    ], 
-    video: '/VID-20260424-WA0661.mp4',
-    videoPoster: '/IMG-20260424-WA0660.jpg',
-    stock: 3, 
-    colors: ['Prata'],
-    description: 'A harmonia perfeita em três camadas. Este trio de colares em banho de prata traz diferentes texturas e correntes, todas adornadas com delicados pingentes de gotas. Uma peça versátil que já vem pronta para criar o mix perfeito no seu colo.',
-    imageStyle: 'scale-[1.1]'
-  },
+      '/IMG-20260423-WA0225.jpg',
+      '/IMG-20260423-WA0227.jpg',
+      '/IMG-20260423-WA0229.jpg',
+      '/IMG-20260423-WA0231.jpg',
+      '/IMG-20260423-WA0233.jpg'
+    ], stock: 3, colors: ['Prata'] },
   { 
-    id: 'c-17', 
-    name: 'Colar bolinha coração cravejado', 
+    id: 'b-38', 
+    name: 'Brinco trevo texturizado elo português', 
     price: 89.90, 
-    category: 'Colares', 
+    category: 'Brincos', 
     images: [
-      '/IMG-20260424-WA0662.jpg'
-    ], 
-    video: '/VID-20260424-WA0663.mp4',
-    videoPoster: '/IMG-20260424-WA0662.jpg',
-    stock: 5, 
-    colors: ['Prata'],
-    description: 'O brilho do amor em cada detalhe. Este colar delicado possui uma corrente estilo bolinha em banho de prata e um pingente de coração inteiramente cravejado com cristais. Uma peça romântica e moderna que ilumina o colo com sofisticação.',
-    imageStyle: 'scale-[1.2]'
-  },
+      '/IMG-20260423-WA0238.jpg',
+      '/IMG-20260423-WA0240.jpg'
+    ], stock: 5, colors: ['Prata'] },
 ];
 
