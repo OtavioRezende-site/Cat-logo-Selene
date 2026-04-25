@@ -445,7 +445,7 @@ export const PRODUCTS: Product[] = [
     name: 'Trio Coração Cravejado',
     price: 168.90,
     category: 'Brincos',
-    images: ["trio-coracao-mix.jpg", "trio-coracao-dourado-2.jpg", "trio-coracao-prata-2.jpg", "trio-coracao-grupo.jpg"],
+    images: ["IMG-20260424-WA0135.jpg", "IMG-20260424-WA0139.jpg", "IMG-20260424-WA0140.jpg"],
     stock: 2,
     colors: ['Dourado', 'Prata']
   },
