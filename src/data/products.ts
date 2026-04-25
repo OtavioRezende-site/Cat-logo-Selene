@@ -288,9 +288,9 @@ export const PRODUCTS: Product[] = [
     name: 'Choker malha telha',
     price: 39.90,
     category: 'Colares',
-    images: ['/1000247581.jpg'],
+    images: ['/1000247581.jpg', '/1000247582.jpg'],
     stock: 5,
-    colors: ['Dourado']
+    colors: ['Dourado', 'Prata']
   },
 
   // PULSEIRAS
@@ -299,7 +299,7 @@ export const PRODUCTS: Product[] = [
     name: 'Pulseira Medalhas',
     price: 67.90,
     category: 'Pulseiras',
-    images: ['/1000247650.jpg', '/1000247659.jpg', '/1000247658.jpg'],
+    images: ["1000247650.jpg", "1000247659.jpg", "1000247658.jpg"],
     stock: 3,
     colors: ['Dourado', 'Prata']
   },
@@ -308,7 +308,7 @@ export const PRODUCTS: Product[] = [
     name: 'Pulseira pérolas',
     price: 74.90,
     category: 'Pulseiras',
-    images: ['/1000247637.jpg', '/1000247664.jpg', '/1000247643.jpg'],
+    images: ["1000247637.jpg", "1000247664.jpg", "1000247643.jpg"],
     stock: 3,
     colors: ['Dourado', 'Prata']
   },
@@ -353,7 +353,7 @@ export const PRODUCTS: Product[] = [
     name: 'Pulseira dupla corrente e ponto de luz',
     price: 88.90,
     category: 'Pulseiras',
-    images: ['/1000247675.jpg', '/1000247695.jpg', '/1000247684.jpg', '/1000247689.jpg'],
+    images: ["1000247675.jpg", "1000247695.jpg", "1000247684.jpg", "1000247689.jpg"],
     stock: 3,
     colors: ['Dourado', 'Prata']
   },
@@ -445,7 +445,7 @@ export const PRODUCTS: Product[] = [
     name: 'Trio Coração Cravejado',
     price: 168.90,
     category: 'Brincos',
-    images: ['/trio-coracao-mix.jpg', '/trio-coracao-dourado-2.jpg', '/trio-coracao-prata-2.jpg', '/trio-coracao-grupo.jpg'],
+    images: ["trio-coracao-mix.jpg", "trio-coracao-dourado-2.jpg", "trio-coracao-prata-2.jpg", "trio-coracao-grupo.jpg"],
     stock: 2,
     colors: ['Dourado', 'Prata']
   },

@@ -3,6 +3,7 @@ import { useBag } from './BagContext';
 import { useAuth } from '../context/AuthContext';
 import { X, Plus, Minus, Trash2, ShoppingBag, LogIn, CreditCard, QrCode } from 'lucide-react';
 import { useState } from 'react';
+import { getImagePath } from '../lib/imageUtils';
 
 interface BagDrawerProps {
   onOpenAuth: () => void;
@@ -95,7 +96,7 @@ export default function BagDrawer({ onOpenAuth }: BagDrawerProps) {
                     <div key={`${item.product.id}-${item.selectedColor}`} className="flex space-x-4 border-b border-line pb-6">
                       <div className="w-24 h-24 bg-white border border-line flex-shrink-0">
                         <img
-                          src={(item.product.colorImages && item.product.colorImages[item.selectedColor]) || item.product.images[0]}
+                          src={getImagePath((item.product.colorImages && item.product.colorImages[item.selectedColor]) || item.product.images[0])}
                           alt={item.product.name}
                           className="w-full h-full object-cover"
                         />
