@@ -288,27 +288,27 @@ export const PRODUCTS: Product[] = [
     name: 'Choker malha telha',
     price: 39.90,
     category: 'Colares',
-    images: ['/IMG-20260425-WA0103.jpg', '/IMG-20260425-WA0104.jpg'],
+    images: ['/1000247581.jpg'],
     stock: 5,
     colors: ['Dourado']
   },
 
   // PULSEIRAS
   {
-    id: 'p-16',
+    id: 'b-24',
     name: 'Pulseira Medalhas',
     price: 67.90,
     category: 'Pulseiras',
-    images: ['/IMG-20260424-WA0072.jpg', '/IMG-20260424-WA0078.jpg', '/IMG-20260424-WA0081.jpg', '/IMG-20260424-WA0083.jpg', '/IMG-20260424-WA0084.jpg'],
+    images: ['/1000247650.jpg', '/1000247659.jpg', '/1000247658.jpg'],
     stock: 3,
     colors: ['Dourado', 'Prata']
   },
   {
-    id: 'p-4',
+    id: 'b-25',
     name: 'Pulseira pérolas',
     price: 74.90,
     category: 'Pulseiras',
-    images: ['/IMG-20260424-WA0089.jpg', '/IMG-20260424-WA0090.jpg', '/IMG-20260424-WA0091.jpg', '/IMG-20260424-WA0093.jpg'],
+    images: ['/1000247637.jpg', '/1000247664.jpg', '/1000247643.jpg'],
     stock: 3,
     colors: ['Dourado', 'Prata']
   },
@@ -349,11 +349,11 @@ export const PRODUCTS: Product[] = [
     colors: ['Dourado']
   },
   {
-    id: 'p-7',
+    id: 'b-26',
     name: 'Pulseira dupla corrente e ponto de luz',
     price: 88.90,
     category: 'Pulseiras',
-    images: ['/IMG-20260424-WA0099.jpg', '/IMG-20260424-WA0102.jpg', '/IMG-20260424-WA0103.jpg', '/IMG-20260424-WA0106.jpg'],
+    images: ['/1000247675.jpg', '/1000247695.jpg', '/1000247684.jpg', '/1000247689.jpg'],
     stock: 3,
     colors: ['Dourado', 'Prata']
   },
@@ -441,11 +441,11 @@ export const PRODUCTS: Product[] = [
 
   // BRINCOS
   {
-    id: 'b-1',
+    id: 'b-27',
     name: 'Trio Coração Cravejado',
     price: 168.90,
     category: 'Brincos',
-    images: ['/IMG-20260424-WA0108.jpg', '/IMG-20260424-WA0110.jpg', '/IMG-20260424-WA0112.jpg'],
+    images: ['/trio-coracao-mix.jpg', '/trio-coracao-dourado-2.jpg', '/trio-coracao-prata-2.jpg', '/trio-coracao-grupo.jpg'],
     stock: 2,
     colors: ['Dourado', 'Prata']
   },
@@ -639,7 +639,7 @@ export const PRODUCTS: Product[] = [
     colors: ['Prata']
   },
   {
-    id: 'b-24',
+    id: 'b-50',
     name: 'Argola gotas turquesa moedas boho',
     price: 87.90,
     category: 'Brincos',
@@ -648,7 +648,7 @@ export const PRODUCTS: Product[] = [
     colors: ['Dourado']
   },
   {
-    id: 'b-25',
+    id: 'b-51',
     name: 'Brinco correntinhas e bolinhas',
     price: 42.90,
     category: 'Brincos',
@@ -657,7 +657,7 @@ export const PRODUCTS: Product[] = [
     colors: ['Prata']
   },
   {
-    id: 'b-26',
+    id: 'b-52',
     name: 'Brinco orgânico pedra azul marinho',
     price: 84.90,
     category: 'Brincos',
