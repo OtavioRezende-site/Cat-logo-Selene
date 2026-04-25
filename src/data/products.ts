@@ -191,7 +191,7 @@ export const PRODUCTS: Product[] = [
     name: 'Colar Lua Madrepérola', 
     price: 104.90, 
     category: 'Colares', 
-    images: ['/1000247162.jpg', '/1000247158.jpg'], 
+    images: ['/IMG-20260424-WA0607.jpg', '/IMG-20260424-WA0608.jpg'], 
     stock: 3, 
     colors: ['Prata'] 
   },
@@ -450,7 +450,7 @@ export const PRODUCTS: Product[] = [
     name: 'Pulseira charms lover', 
     price: 82.90, 
     category: 'Pulseiras', 
-    images: ['/IMG-20260423-WA0196.jpg'], 
+    images: ['/IMG-20260424-WA0196.jpg', '/IMG-20260424-WA0611.jpg'], 
     stock: 3, 
     colors: ['Dourado'],
     description: 'Uma pulseira repleta de significados e encantos. Com diversos charms que representam amor, fé e sorte, esta peça é perfeita para quem gosta de acessórios com personalidade e movimento. Detalhes em pérolas e metal dourado de alta qualidade.'
@@ -532,12 +532,12 @@ export const PRODUCTS: Product[] = [
     name: 'Trio Coração Cravejado', 
     price: 168.90, 
     category: 'Brincos', 
-    images: ['/trio-coracao-mix.jpg', '/trio-coracao-dourado.jpg', '/trio-coracao-dourado-2.jpg', '/trio-coracao-prata.jpg', '/trio-coracao-prata-2.jpg', '/trio-coracao-grupo.jpg'], 
+    images: ['/IMG-20260424-WA0586.jpg', '/IMG-20260424-WA0588.jpg', '/IMG-20260424-WA0589.jpg', '/IMG-20260424-WA0590.jpg'], 
     stock: 2, 
     colors: ['Dourado', 'Prata'],
     colorImages: {
-      'Dourado': '/trio-coracao-dourado-2.jpg',
-      'Prata': '/trio-coracao-prata-2.jpg'
+      'Dourado': '/IMG-20260424-WA0588.jpg',
+      'Prata': '/IMG-20260424-WA0590.jpg'
     },
     description: 'O trio perfeito para quem tem vários furos ou quer praticidade no dia a dia. Três tamanhos de corações cravejados que iluminam o rosto com muita sofisticação.',
   },
@@ -546,11 +546,11 @@ export const PRODUCTS: Product[] = [
     name: 'Trio Argola Cravejada', 
     price: 168.90, 
     category: 'Brincos', 
-    images: ['/trio-argola-cravejada-capa.jpg', '/trio-argola-cravejada-1.jpg', '/trio-argola-cravejada-2.jpg', '/IMG-20260424-WA0144.jpg', '/IMG-20260424-WA0145.jpg', '/IMG-20260424-WA0146.jpg'], 
+    images: ['/IMG-20260424-WA0595.jpg', '/IMG-20260424-WA0596.jpg', '/IMG-20260424-WA0598.jpg', '/IMG-20260424-WA0144.jpg', '/IMG-20260424-WA0145.jpg', '/IMG-20260424-WA0146.jpg'], 
     stock: 2, 
     colors: ['Prata'],
     colorImages: {
-      'Prata': '/IMG-20260424-WA0144.jpg'
+      'Prata': '/IMG-20260424-WA0595.jpg'
     },
     description: 'Argolas nunca saem de moda, e esse trio cravejado é o upgrade que seu visual precisava. Brilho na medida certa para te acompanhar do trabalho ao jantar especial.',
   },
@@ -559,11 +559,11 @@ export const PRODUCTS: Product[] = [
     name: 'Trio quadradinho reto', 
     price: 147.90, 
     category: 'Brincos', 
-    images: ['/trio-quadradinho-reto-capa.jpg', '/trio-quadradinho-reto-1.jpg', '/IMG-20260424-WA0152.jpg', '/IMG-20260424-WA0153.jpg'], 
+    images: ['/IMG-20260424-WA0601.jpg', '/IMG-20260424-WA0152.jpg', '/IMG-20260424-WA0153.jpg'], 
     stock: 2, 
     colors: ['Prata'],
     colorImages: {
-      'Prata': '/IMG-20260424-WA0152.jpg'
+      'Prata': '/IMG-20260424-WA0601.jpg'
     },
     description: 'Design minimalista e geométrico para quem ama um estilo moderno. O trio quadradinho reto é versátil e traz um ar de sofisticação geométrica para sua composição.'
   },
@@ -586,7 +586,7 @@ export const PRODUCTS: Product[] = [
     name: 'Trio argola bolinhas', 
     price: 147.90, 
     category: 'Brincos', 
-    images: ['/trio-argola-bolinhas-capa.jpg', '/trio-argola-bolinhas-1.jpg', '/trio-argola-bolinhas-2.jpg', '/trio-argola-bolinhas-3.jpg', '/IMG-20260424-WA0163.jpg', '/IMG-20260424-WA0167.jpg', '/IMG-20260424-WA0169.jpg', '/IMG-20260424-WA0171.jpg'], 
+    images: ['/IMG-20260424-WA0163.jpg', '/IMG-20260424-WA0167.jpg', '/IMG-20260424-WA0169.jpg', '/IMG-20260424-WA0171.jpg'], 
     stock: 2, 
     colors: ['Prata'],
     colorImages: {
