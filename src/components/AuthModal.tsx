@@ -107,7 +107,7 @@ export default function AuthModal({ isOpen, onClose }: AuthModalProps) {
           className="relative w-full max-w-md bg-offwhite shadow-2xl rounded-sm overflow-hidden flex flex-col max-h-[90vh]"
         >
           <div className="p-8 border-b border-line flex justify-between items-center bg-white">
-            <h2 className="serif text-2xl text-charcoal">
+            <h2 className="serif text-2xl text-forest">
               {user ? (isEditing ? 'Completar Cadastro' : 'Minha Conta') : 'Boas-vindas'}
             </h2>
             <button onClick={onClose} className="p-2 hover:bg-black/5 rounded-full transition-colors">
@@ -119,12 +119,12 @@ export default function AuthModal({ isOpen, onClose }: AuthModalProps) {
             {loading ? (
               <div className="flex flex-col items-center justify-center py-12 space-y-4">
                 <Loader2 className="animate-spin text-sage" size={32} />
-                <p className="text-[10px] uppercase tracking-widest text-charcoal/40">Carregando...</p>
+                <p className="text-[10px] uppercase tracking-widest text-forest/40">Carregando...</p>
               </div>
             ) : !user ? (
               <div className="space-y-8">
                 <div className="text-center space-y-2">
-                  <p className="text-sm text-charcoal/60 font-light">
+                  <p className="text-sm text-forest/60 font-light">
                     Entre para salvar seus endereços e acompanhar seus pedidos com elegância.
                   </p>
                 </div>
@@ -147,7 +147,7 @@ export default function AuthModal({ isOpen, onClose }: AuthModalProps) {
                 </div>
 
                 <div className="pt-6 border-t border-line">
-                  <p className="text-[9px] text-center text-charcoal/40 uppercase tracking-widest leading-loose">
+                  <p className="text-[9px] text-center text-forest/40 uppercase tracking-widest leading-loose">
                     Ao continuar, você concorda com nossos <br />
                     <span className="underline cursor-pointer">Termos de Uso</span> e <span className="underline cursor-pointer">Política de Privacidade</span>.
                   </p>
@@ -159,9 +159,9 @@ export default function AuthModal({ isOpen, onClose }: AuthModalProps) {
                 
                 <div className="space-y-4">
                   <div className="space-y-1">
-                    <label className="text-[10px] uppercase tracking-widest font-bold text-charcoal/40">Nome Completo</label>
+                    <label className="text-[10px] uppercase tracking-widest font-bold text-forest/40">Nome Completo</label>
                     <div className="relative">
-                      <UserIcon className="absolute left-4 top-1/2 -translate-y-1/2 text-charcoal/20" size={16} />
+                      <UserIcon className="absolute left-4 top-1/2 -translate-y-1/2 text-forest/20" size={16} />
                       <input 
                         required
                         type="text" 
@@ -174,9 +174,9 @@ export default function AuthModal({ isOpen, onClose }: AuthModalProps) {
                   </div>
 
                   <div className="space-y-1">
-                    <label className="text-[10px] uppercase tracking-widest font-bold text-charcoal/40">WhatsApp / Telefone</label>
+                    <label className="text-[10px] uppercase tracking-widest font-bold text-forest/40">WhatsApp / Telefone</label>
                     <div className="relative">
-                      <Phone className="absolute left-4 top-1/2 -translate-y-1/2 text-charcoal/20" size={16} />
+                      <Phone className="absolute left-4 top-1/2 -translate-y-1/2 text-forest/20" size={16} />
                       <input 
                         required
                         type="tel" 
@@ -189,9 +189,9 @@ export default function AuthModal({ isOpen, onClose }: AuthModalProps) {
                   </div>
 
                   <div className="space-y-1">
-                    <label className="text-[10px] uppercase tracking-widest font-bold text-charcoal/40">Endereço Completo</label>
+                    <label className="text-[10px] uppercase tracking-widest font-bold text-forest/40">Endereço Completo</label>
                     <div className="relative">
-                      <MapPin className="absolute left-4 top-1/2 -translate-y-1/2 text-charcoal/20" size={16} />
+                      <MapPin className="absolute left-4 top-1/2 -translate-y-1/2 text-forest/20" size={16} />
                       <input 
                         required
                         type="text" 
@@ -205,7 +205,7 @@ export default function AuthModal({ isOpen, onClose }: AuthModalProps) {
 
                   <div className="grid grid-cols-2 gap-4">
                     <div className="space-y-1">
-                      <label className="text-[10px] uppercase tracking-widest font-bold text-charcoal/40">Cidade</label>
+                      <label className="text-[10px] uppercase tracking-widest font-bold text-forest/40">Cidade</label>
                       <input 
                         required
                         type="text" 
@@ -216,7 +216,7 @@ export default function AuthModal({ isOpen, onClose }: AuthModalProps) {
                       />
                     </div>
                     <div className="space-y-1">
-                      <label className="text-[10px] uppercase tracking-widest font-bold text-charcoal/40">UF</label>
+                      <label className="text-[10px] uppercase tracking-widest font-bold text-forest/40">UF</label>
                       <input 
                         required
                         type="text" 
@@ -246,25 +246,25 @@ export default function AuthModal({ isOpen, onClose }: AuthModalProps) {
                   </div>
                   <div>
                     <p className="text-sm font-semibold">{userData?.fullName || user.displayName}</p>
-                    <p className="text-[10px] text-charcoal/40 uppercase tracking-widest">{user.email}</p>
+                    <p className="text-[10px] text-forest/40 uppercase tracking-widest">{user.email}</p>
                   </div>
                 </div>
 
                 <div className="space-y-6">
                   <div className="space-y-4">
                     <div className="flex items-center justify-between">
-                      <h4 className="text-[10px] uppercase tracking-[0.2em] font-bold text-charcoal/40">Dados de Entrega</h4>
+                      <h4 className="text-[10px] uppercase tracking-[0.2em] font-bold text-forest/40">Dados de Entrega</h4>
                       <button onClick={() => setIsEditing(true)} className="text-[10px] uppercase tracking-widest font-bold text-sage underline">Editar</button>
                     </div>
                     <div className="p-4 border border-line space-y-2 bg-white/50">
-                      <p className="text-xs text-charcoal/70">{userData?.address}</p>
-                      <p className="text-xs text-charcoal/70">{userData?.city}, {userData?.state}</p>
-                      <p className="text-xs text-charcoal/70">{userData?.phone}</p>
+                      <p className="text-xs text-forest/70">{userData?.address}</p>
+                      <p className="text-xs text-forest/70">{userData?.city}, {userData?.state}</p>
+                      <p className="text-xs text-forest/70">{userData?.phone}</p>
                     </div>
                   </div>
 
                   <div className="space-y-4">
-                    <h4 className="text-[10px] uppercase tracking-[0.2em] font-bold text-charcoal/40">Meus Pedidos</h4>
+                    <h4 className="text-[10px] uppercase tracking-[0.2em] font-bold text-forest/40">Meus Pedidos</h4>
                     <div className="p-12 border border-dashed border-line flex flex-col items-center justify-center space-y-4 grayscale opacity-40">
                       <Package size={24} />
                       <p className="text-[10px] uppercase tracking-widest">Nenhum pedido realizado</p>

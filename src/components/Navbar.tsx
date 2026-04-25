@@ -1,14 +1,15 @@
 import { motion } from 'motion/react';
 import { ShoppingBag, Search, Menu, X, User } from 'lucide-react';
 import { useState } from 'react';
-import { useBag } from '../context/BagContext';
+import { useBag } from './BagContext';
 import { useAuth } from '../context/AuthContext';
 
 interface NavbarProps {
   onOpenAuth: () => void;
+  onOpenSearch: () => void;
 }
 
-export default function Navbar({ onOpenAuth }: NavbarProps) {
+export default function Navbar({ onOpenAuth, onOpenSearch }: NavbarProps) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { itemsCount, setIsOpen } = useBag();
   const { user } = useAuth();
@@ -22,12 +23,23 @@ export default function Navbar({ onOpenAuth }: NavbarProps) {
         </p>
       </div>
 
-      <div className="max-w-7xl mx-auto px-10">
+      <div className="max-w-7xl mx-auto px-4 md:px-10">
         <div className="flex items-center justify-between h-20">
           
-          {/* Desktop Links - Left (Empty or Socials?) */}
-          <div className="hidden md:flex items-center space-x-10 flex-1">
-            {/* Nav links removed per user request */}
+          {/* Mobile Left - Menu & Search */}
+          <div className="flex md:hidden flex-1 items-center">
+            <button 
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+              className="text-forest p-2 -ml-2"
+            >
+              {isMenuOpen ? <X size={20} /> : <Menu size={20} />}
+            </button>
+            <button 
+              onClick={onOpenSearch}
+              className="text-forest p-2"
+            >
+              <Search size={18} />
+            </button>
           </div>
 
           {/* Logo - Centered */}
@@ -38,10 +50,13 @@ export default function Navbar({ onOpenAuth }: NavbarProps) {
           </div>
 
           {/* Icons - Right */}
-          <div className="flex items-center justify-end space-x-6 flex-1">
-            <button className="hidden lg:flex items-center space-x-1 text-[11px] uppercase tracking-wider hover:text-sage transition-colors">
+          <div className="flex items-center justify-end space-x-2 md:space-x-6 flex-1">
+            <button 
+              onClick={onOpenSearch}
+              className="hidden md:flex items-center space-x-1 text-[11px] uppercase tracking-wider hover:text-sage transition-colors"
+            >
               <Search size={14} />
-              <span>Busca</span>
+              <span className="hidden lg:inline">Busca</span>
             </button>
             <button 
               onClick={onOpenAuth}
@@ -80,6 +95,7 @@ export default function Navbar({ onOpenAuth }: NavbarProps) {
           <a href="#pulseiras" className="block text-xs tracking-widest uppercase">Pulseiras</a>
           <a href="#brincos" className="block text-xs tracking-widest uppercase">Brincos</a>
           <a href="#aneis" className="block text-xs tracking-widest uppercase">Anéis</a>
+          <a href="#conjuntos" className="block text-xs tracking-widest uppercase">Conjuntos</a>
         </motion.div>
       )}
     </nav>

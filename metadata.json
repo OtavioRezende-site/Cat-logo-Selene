@@ -1,6 +1,6 @@
 {
   "name": "Selene - Semijoias de Luxo",
-  "description": "E-commerce de luxo para semijoias exclusivas. Minimalista, editorial e sofisticado.",
-  "requestFramePermissions": [],
+  "description": "E-commerce de luxo para semijoias exclusivas. Coleção de Colares e Acessórios sofisticados.",
+  "requestFramePermissions": ["microphone"],
   "majorCapabilities": []
 }

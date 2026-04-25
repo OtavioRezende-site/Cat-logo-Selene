@@ -6,14 +6,15 @@
   --font-sans: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   
   --color-sage: #76845E;
-  --color-charcoal: #2D2D2D;
+  --color-forest: #152219;
+  --color-chumbo: #0A140E;
   --color-offwhite: #F9F8F6;
-  --color-line: rgba(45, 45, 45, 0.1);
+  --color-line: rgba(21, 34, 25, 0.1);
 }
 
 @layer base {
   body {
-    @apply bg-offwhite text-charcoal font-sans antialiased;
+    @apply bg-offwhite text-forest font-sans antialiased;
   }
 }
 

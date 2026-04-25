@@ -10,8 +10,8 @@ export default function Footer() {
           <div className="space-y-6">
             <h2 className="serif text-4xl">Selene</h2>
             <p className="text-gray-400 text-sm leading-relaxed font-light">
-              Elevando a sua essência através de peças minimalistas e atemporais. 
-              Feito para mulheres que valorizam cada detalhe.
+              Escolhemos cada peça com carinho para iluminar sua beleza real em cada detalhe. 
+              Feito para você, que valoriza a leveza e a sofisticação.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="hover:text-sage transition-colors"><Instagram size={20} /></a>
@@ -51,8 +51,8 @@ export default function Footer() {
 
           {/* Newsletter */}
           <div className="space-y-6">
-            <h4 className="text-xs uppercase tracking-[0.2em] font-semibold border-b border-white/10 pb-2">Fique por dentro</h4>
-            <p className="text-sm text-gray-400 font-light">Receba novidades e ofertas exclusivas da Selene.</p>
+            <h4 className="text-xs uppercase tracking-[0.2em] font-semibold border-b border-white/10 pb-2">Vamos conversar?</h4>
+            <p className="text-sm text-gray-400 font-light">Quer receber nossas novidades e mimos exclusivos? Deixa seu e-mail aqui.</p>
             <div className="flex">
               <input 
                 type="email" 

@@ -1,5 +1,5 @@
 import { motion, AnimatePresence } from 'motion/react';
-import { useBag } from '../context/BagContext';
+import { useBag } from './BagContext';
 import { useAuth } from '../context/AuthContext';
 import { X, Plus, Minus, Trash2, ShoppingBag, LogIn, CreditCard, QrCode } from 'lucide-react';
 import { useState } from 'react';
@@ -29,7 +29,7 @@ export default function BagDrawer({ onOpenAuth }: BagDrawerProps) {
         `👤 *Cliente:* ${userData.fullName}\n` +
         `📍 *Endereço:* ${userData.address}, ${userData.city}-${userData.state}\n` +
         `📱 *Contato:* ${userData.phone}\n\n` +
-        `🛍️ *Itens:* \n${items.map(i => `• ${i.product.name} (x${i.quantity}) - ${(i.product.price * i.quantity).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}`).join('\n')}\n\n` +
+        `🛍️ *Itens:* \n${items.map(i => `• ${i.product.name} (${i.selectedColor}) (x${i.quantity}) - ${(i.product.price * i.quantity).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}`).join('\n')}\n\n` +
         `💰 *Total:* ${totalPrice.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}\n` +
         `💳 *Forma de Pagamento:* ${paymentText}\n\n` +
         `Aguardando confirmação para prosseguir! 🌙`;
@@ -79,7 +79,7 @@ export default function BagDrawer({ onOpenAuth }: BagDrawerProps) {
             {/* Items */}
             <div className="flex-1 overflow-y-auto p-8 space-y-6">
               {items.length === 0 ? (
-                <div className="h-full flex flex-col items-center justify-center space-y-4 text-charcoal/40">
+                <div className="h-full flex flex-col items-center justify-center space-y-4 text-forest/40">
                   <ShoppingBag size={48} strokeWidth={1} />
                   <p className="font-light tracking-wide">Sua sacola está vazia.</p>
                   <button 
@@ -92,10 +92,10 @@ export default function BagDrawer({ onOpenAuth }: BagDrawerProps) {
               ) : (
                 <div className="space-y-6">
                    {items.map((item) => (
-                    <div key={item.product.id} className="flex space-x-4 border-b border-line pb-6">
+                    <div key={`${item.product.id}-${item.selectedColor}`} className="flex space-x-4 border-b border-line pb-6">
                       <div className="w-24 h-24 bg-white border border-line flex-shrink-0">
                         <img
-                          src={item.product.images[0]}
+                          src={(item.product.colorImages && item.product.colorImages[item.selectedColor]) || item.product.images[0]}
                           alt={item.product.name}
                           className="w-full h-full object-cover"
                         />
@@ -103,16 +103,16 @@ export default function BagDrawer({ onOpenAuth }: BagDrawerProps) {
                       <div className="flex-1 flex flex-col justify-between">
                         <div className="flex justify-between items-start">
                           <div>
-                            <h3 className="text-xs uppercase tracking-wider font-semibold text-charcoal">
+                            <h3 className="text-xs uppercase tracking-wider font-semibold text-forest">
                               {item.product.name}
                             </h3>
-                            <p className="text-[10px] text-charcoal/40 uppercase tracking-widest mt-1">
-                              {item.product.category}
+                            <p className="text-[10px] text-forest/40 uppercase tracking-widest mt-1">
+                              {item.selectedColor} • {item.product.category}
                             </p>
                           </div>
                           <button
-                            onClick={() => removeFromBag(item.product.id)}
-                            className="text-charcoal/30 hover:text-red-400 transition-colors"
+                            onClick={() => removeFromBag(item.product.id, item.selectedColor)}
+                            className="text-forest/30 hover:text-red-400 transition-colors"
                           >
                             <Trash2 size={16} />
                           </button>
@@ -120,7 +120,7 @@ export default function BagDrawer({ onOpenAuth }: BagDrawerProps) {
                         <div className="flex justify-between items-center mt-4">
                           <div className="flex items-center border border-line rounded-sm">
                             <button
-                              onClick={() => updateQuantity(item.product.id, -1)}
+                              onClick={() => updateQuantity(item.product.id, item.selectedColor, -1)}
                               className="p-1.5 hover:bg-black/5 transition-colors"
                             >
                               <Minus size={12} />
@@ -129,7 +129,7 @@ export default function BagDrawer({ onOpenAuth }: BagDrawerProps) {
                               {item.quantity}
                             </span>
                             <button
-                              onClick={() => updateQuantity(item.product.id, 1)}
+                              onClick={() => updateQuantity(item.product.id, item.selectedColor, 1)}
                               disabled={item.quantity >= item.product.stock}
                               className={`p-1.5 transition-colors ${item.quantity >= item.product.stock ? 'opacity-20 cursor-not-allowed' : 'hover:bg-black/5'}`}
                             >
@@ -157,18 +157,18 @@ export default function BagDrawer({ onOpenAuth }: BagDrawerProps) {
               <div className="p-8 border-t border-line bg-white/50 space-y-6">
                 {/* Payment Method Selection */}
                 <div className="space-y-3">
-                  <h4 className="text-[10px] uppercase tracking-widest font-bold text-charcoal/40">Forma de Pagamento</h4>
+                  <h4 className="text-[10px] uppercase tracking-widest font-bold text-forest/40">Forma de Pagamento</h4>
                   <div className="grid grid-cols-2 gap-3">
                     <button 
                       onClick={() => setPaymentMethod('Pix')}
-                      className={`flex items-center justify-center space-x-2 py-3 border transition-all ${paymentMethod === 'Pix' ? 'border-sage bg-sage/5 text-sage' : 'border-line text-charcoal/40'}`}
+                      className={`flex items-center justify-center space-x-2 py-3 border transition-all ${paymentMethod === 'Pix' ? 'border-sage bg-sage/5 text-sage' : 'border-line text-forest/40'}`}
                     >
                       <QrCode size={14} />
                       <span className="text-[10px] uppercase tracking-widest font-bold">Pix</span>
                     </button>
                     <button 
                       onClick={() => setPaymentMethod('Cartão')}
-                      className={`flex items-center justify-center space-x-2 py-3 border transition-all ${paymentMethod === 'Cartão' ? 'border-sage bg-sage/5 text-sage' : 'border-line text-charcoal/40'}`}
+                      className={`flex items-center justify-center space-x-2 py-3 border transition-all ${paymentMethod === 'Cartão' ? 'border-sage bg-sage/5 text-sage' : 'border-line text-forest/40'}`}
                     >
                       <CreditCard size={14} />
                       <span className="text-[10px] uppercase tracking-widest font-bold">Cartão (3x)</span>
@@ -176,7 +176,7 @@ export default function BagDrawer({ onOpenAuth }: BagDrawerProps) {
                   </div>
                 </div>
 
-                <div className="flex justify-between items-center text-charcoal pt-4 border-t border-line/40">
+                <div className="flex justify-between items-center text-forest pt-4 border-t border-line/40">
                   <span className="text-xs uppercase tracking-[0.2em] font-light">Subtotal</span>
                   <span className="text-xl serif">
                     {totalPrice.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}
@@ -191,7 +191,7 @@ export default function BagDrawer({ onOpenAuth }: BagDrawerProps) {
                   <span>{!user ? 'Entre para comprar' : !userData?.address ? 'Completar Cadastro' : 'Finalizar via WhatsApp'}</span>
                 </button>
                 <div className="text-center">
-                   <p className="text-[10px] text-charcoal/40 uppercase tracking-widest">
+                   <p className="text-[10px] text-forest/40 uppercase tracking-widest">
                      Taxas e frete calculados no checkout
                    </p>
                 </div>

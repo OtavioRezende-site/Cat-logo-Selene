@@ -7,50 +7,98 @@ import Footer from './components/Footer';
 import BagDrawer from './components/BagDrawer';
 import { PRODUCTS, Product } from './data/products';
 import { motion, AnimatePresence } from 'motion/react';
-import { BagProvider } from './context/BagContext';
+import { BagProvider } from './components/BagContext';
 import { AuthProvider } from './context/AuthContext';
 import AuthModal from './components/AuthModal';
+import SearchModal from './components/SearchModal';
 
 function AppContent() {
   const [activeCategory, setActiveCategory] = useState('Todos');
+  const [activeSubcategory, setActiveSubcategory] = useState('Todos');
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
 
   const categories = ['Todos', ...Array.from(new Set(PRODUCTS.map(p => p.category)))];
 
+  const subcategoriesMap: { [key: string]: string[] } = {
+    'Colares': ['Todos', ...Array.from(new Set(PRODUCTS.filter(p => p.category === 'Colares' && p.subcategory).map(p => p.subcategory as string)))]
+  };
+
   const filteredProducts = activeCategory === 'Todos' 
     ? PRODUCTS 
-    : PRODUCTS.filter(p => p.category === activeCategory);
+    : PRODUCTS.filter(p => {
+        const categoryMatch = p.category === activeCategory;
+        if (!categoryMatch) return false;
+        if (activeSubcategory === 'Todos') return true;
+        return p.subcategory === activeSubcategory;
+      });
+
+  const handleCategoryChange = (cat: string) => {
+    setActiveCategory(cat);
+    setActiveSubcategory('Todos');
+  };
 
   return (
-    <div className={`min-h-screen ${selectedProduct || isAuthModalOpen ? 'overflow-hidden' : ''}`}>
-      <Navbar onOpenAuth={() => setIsAuthModalOpen(true)} />
+    <div className={`min-h-screen ${selectedProduct || isAuthModalOpen || isSearchOpen ? 'overflow-hidden' : ''}`}>
+      <Navbar 
+        onOpenAuth={() => setIsAuthModalOpen(true)} 
+        onOpenSearch={() => setIsSearchOpen(true)}
+      />
       
-      <Hero />
+      <Hero onSelectProduct={setSelectedProduct} />
 
       <main id="catalogo" className="max-w-7xl mx-auto px-4 md:px-8 py-20">
         
         {/* Section Header */}
         <div className="flex flex-col items-center mb-16 text-center">
-          <h2 className="text-[11px] font-semibold text-charcoal/60 uppercase tracking-[2px] mb-4">Destaques da Temporada</h2>
+          <h2 className="text-[11px] font-semibold text-forest/60 uppercase tracking-[2px] mb-4">Destaques da Temporada</h2>
           <div className="h-[1px] w-16 bg-line"></div>
         </div>
 
         {/* Category Filters */}
-        <div className="flex flex-wrap justify-center gap-4 mb-16 px-4">
-          {categories.map((cat) => (
-            <button
-              key={cat}
-              onClick={() => setActiveCategory(cat)}
-              className={`px-6 py-2 text-[10px] tracking-[0.2em] uppercase transition-all duration-300 border ${
-                activeCategory === cat 
-                ? 'bg-sage border-sage text-white' 
-                : 'bg-transparent border-gray-200 text-gray-500 hover:border-chumbo'
-              }`}
-            >
-              {cat}
-            </button>
-          ))}
+        <div className="flex flex-col items-center gap-6 mb-16">
+          <div className="flex flex-wrap justify-center gap-4 px-4">
+            {categories.map((cat) => (
+              <button
+                key={cat}
+                onClick={() => handleCategoryChange(cat)}
+                className={`px-6 py-2 text-[10px] tracking-[0.2em] uppercase transition-all duration-300 border ${
+                  activeCategory === cat 
+                  ? 'bg-sage border-sage text-white' 
+                  : 'bg-transparent border-gray-200 text-gray-500 hover:border-chumbo'
+                }`}
+              >
+                {cat}
+              </button>
+            ))}
+          </div>
+
+          {/* Subcategory Filters */}
+          <AnimatePresence>
+            {subcategoriesMap[activeCategory] && (
+              <motion.div 
+                initial={{ opacity: 0, y: -10 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -10 }}
+                className="flex flex-wrap justify-center gap-3 px-4"
+              >
+                {subcategoriesMap[activeCategory].map((sub) => (
+                  <button
+                    key={sub}
+                    onClick={() => setActiveSubcategory(sub)}
+                    className={`px-4 py-1.5 text-[9px] tracking-[0.1em] uppercase transition-all duration-300 border rounded-full ${
+                      activeSubcategory === sub 
+                      ? 'bg-chumbo border-chumbo text-white' 
+                      : 'bg-white border-gray-200 text-gray-400 hover:border-sage hover:text-sage'
+                    }`}
+                  >
+                    {sub}
+                  </button>
+                ))}
+              </motion.div>
+            )}
+          </AnimatePresence>
         </div>
 
         {/* Product Grid */}
@@ -69,13 +117,6 @@ function AppContent() {
               </motion.div>
             ))}
           </AnimatePresence>
-        </div>
-
-        {/* Pagination / Load More (Placeholder) */}
-        <div className="mt-24 flex justify-center">
-          <button className="border border-chumbo px-12 py-4 text-[10px] tracking-[0.3em] uppercase hover:bg-chumbo hover:text-white transition-all duration-500">
-            Carregar Mais
-          </button>
         </div>
       </main>
 
@@ -121,6 +162,11 @@ function AppContent() {
       <AuthModal 
         isOpen={isAuthModalOpen} 
         onClose={() => setIsAuthModalOpen(false)} 
+      />
+      <SearchModal 
+        isOpen={isSearchOpen} 
+        onClose={() => setIsSearchOpen(false)} 
+        onSelectProduct={setSelectedProduct}
       />
     </div>
   );
