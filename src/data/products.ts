@@ -532,7 +532,7 @@ export const PRODUCTS: Product[] = [
     name: 'Trio Coração Cravejado', 
     price: 168.90, 
     category: 'Brincos', 
-    images: ['/trio-coracao-mix.jpg', '/trio-coracao-dourado-2.jpg', '/trio-coracao-prata-2.jpg', '/trio-coracao-grupo.jpg'], 
+    images: ['/trio-coracao-mix.jpg', '/trio-coracao-dourado.jpg', '/trio-coracao-dourado-2.jpg', '/trio-coracao-prata.jpg', '/trio-coracao-prata-2.jpg', '/trio-coracao-grupo.jpg'], 
     stock: 2, 
     colors: ['Dourado', 'Prata'],
     colorImages: {
@@ -546,7 +546,7 @@ export const PRODUCTS: Product[] = [
     name: 'Trio Argola Cravejada', 
     price: 168.90, 
     category: 'Brincos', 
-    images: ['/IMG-20260424-WA0144.jpg', '/IMG-20260424-WA0145.jpg', '/IMG-20260424-WA0146.jpg'], 
+    images: ['/trio-argola-cravejada-capa.jpg', '/trio-argola-cravejada-1.jpg', '/trio-argola-cravejada-2.jpg', '/IMG-20260424-WA0144.jpg', '/IMG-20260424-WA0145.jpg', '/IMG-20260424-WA0146.jpg'], 
     stock: 2, 
     colors: ['Prata'],
     colorImages: {
@@ -559,7 +559,7 @@ export const PRODUCTS: Product[] = [
     name: 'Trio quadradinho reto', 
     price: 147.90, 
     category: 'Brincos', 
-    images: ['/IMG-20260424-WA0152.jpg', '/IMG-20260424-WA0153.jpg'], 
+    images: ['/trio-quadradinho-reto-capa.jpg', '/trio-quadradinho-reto-1.jpg', '/IMG-20260424-WA0152.jpg', '/IMG-20260424-WA0153.jpg'], 
     stock: 2, 
     colors: ['Prata'],
     colorImages: {
@@ -586,7 +586,7 @@ export const PRODUCTS: Product[] = [
     name: 'Trio argola bolinhas', 
     price: 147.90, 
     category: 'Brincos', 
-    images: ['/IMG-20260424-WA0163.jpg', '/IMG-20260424-WA0167.jpg', '/IMG-20260424-WA0169.jpg', '/IMG-20260424-WA0171.jpg'], 
+    images: ['/trio-argola-bolinhas-capa.jpg', '/trio-argola-bolinhas-1.jpg', '/trio-argola-bolinhas-2.jpg', '/trio-argola-bolinhas-3.jpg', '/IMG-20260424-WA0163.jpg', '/IMG-20260424-WA0167.jpg', '/IMG-20260424-WA0169.jpg', '/IMG-20260424-WA0171.jpg'], 
     stock: 2, 
     colors: ['Prata'],
     colorImages: {
