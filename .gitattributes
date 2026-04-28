@@ -6,4 +6,8 @@
 *.webp binary
 *.ico binary
 *.pdf binary
- *.svg text
+*.svg text
+*.mp4 binary
+*.webm binary
+*.mov binary
+*.zip binary

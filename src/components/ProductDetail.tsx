@@ -12,14 +12,14 @@ interface ProductDetailProps {
 export default function ProductDetail({ product, onClose }: ProductDetailProps) {
   const [selectedMedia, setSelectedMedia] = useState<{ type: 'image' | 'video', url: string }>({ 
     type: 'image', 
-    url: product.images[0] 
+    url: `${import.meta.env.BASE_URL}${product.images[0]}` 
   });
   const [selectedColor, setSelectedColor] = useState<string>(product.colors[0]);
   const { addToBag, items } = useBag();
 
   const allMedia = [
-    ...product.images.map(img => ({ type: 'image' as const, url: img })),
-    ...(product.video ? [{ type: 'video' as const, url: product.video }] : [])
+    ...product.images.map(img => ({ type: 'image' as const, url: `${import.meta.env.BASE_URL}${img}` })),
+    ...(product.video ? [{ type: 'video' as const, url: `${import.meta.env.BASE_URL}${product.video}` }] : [])
   ];
 
   const currentIndex = allMedia.findIndex(m => m.url === selectedMedia.url);
@@ -156,10 +156,10 @@ export default function ProductDetail({ product, onClose }: ProductDetailProps) 
               {product.images.map((img, idx) => (
                 <button 
                   key={`img-${idx}`}
-                  onClick={() => setSelectedMedia({ type: 'image', url: img })}
-                  className={`w-20 h-24 flex-shrink-0 border transition-all ${selectedMedia.type === 'image' && selectedMedia.url === img ? 'border-sage ring-1 ring-sage' : 'border-line opacity-60 hover:opacity-100'}`}
+                  onClick={() => setSelectedMedia({ type: 'image', url: `${import.meta.env.BASE_URL}${img}` })}
+                  className={`w-20 h-24 flex-shrink-0 border transition-all ${selectedMedia.type === 'image' && selectedMedia.url === `${import.meta.env.BASE_URL}${img}` ? 'border-sage ring-1 ring-sage' : 'border-line opacity-60 hover:opacity-100'}`}
                 >
-                  <img src={img} alt={`${product.name} view ${idx}`} className="w-full h-full object-cover" />
+                  <img src={`${import.meta.env.BASE_URL}${img}`} alt={`${product.name} view ${idx}`} className="w-full h-full object-cover" />
                 </button>
               ))}
               {product.video && (
@@ -236,7 +236,7 @@ export default function ProductDetail({ product, onClose }: ProductDetailProps) 
                     onClick={() => {
                       setSelectedColor(color);
                       if (product.colorImages && product.colorImages[color]) {
-                        setSelectedMedia({ type: 'image', url: product.colorImages[color] });
+                        setSelectedMedia({ type: 'image', url: `${import.meta.env.BASE_URL}${product.colorImages[color]}` });
                       }
                     }}
                     className={`px-6 py-3 text-[10px] uppercase tracking-widest transition-all border ${
