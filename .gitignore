@@ -1,3 +1,7 @@
+# Ignore images in public folder as user manages them manually on GitHub
+public/
+!public/.gitkeep
+
 node_modules/
 build/
 dist/
