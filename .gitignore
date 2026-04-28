@@ -1,7 +1,4 @@
-# Ignore images in public folder as user manages them manually on GitHub
-public/
-!public/.gitkeep
-
+# Standard ignores
 node_modules/
 build/
 dist/
@@ -11,5 +8,14 @@ coverage/
 .env*
 !.env.example
 *.txt
+
+# Ignore images locally to avoid syncing to GitHub
+public/*.jpg
+public/*.jpeg
+public/*.png
+public/*.webp
+public/*.gif
+public/IMG-*
+**/IMG-*
 
 
