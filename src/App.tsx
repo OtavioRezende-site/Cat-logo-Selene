@@ -11,6 +11,7 @@ import { BagProvider } from './components/BagContext';
 import { AuthProvider } from './context/AuthContext';
 import AuthModal from './components/AuthModal';
 import SearchModal from './components/SearchModal';
+import { ChatBot } from './components/ChatBot';
 
 function AppContent() {
   const [activeCategory, setActiveCategory] = useState('Todos');
@@ -168,6 +169,7 @@ function AppContent() {
         onClose={() => setIsSearchOpen(false)} 
         onSelectProduct={setSelectedProduct}
       />
+      <ChatBot />
     </div>
   );
 }

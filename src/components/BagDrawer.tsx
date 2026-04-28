@@ -98,7 +98,7 @@ export default function BagDrawer({ onOpenAuth }: BagDrawerProps) {
                           const img = (item.product.colorImages && item.product.colorImages[item.selectedColor]) || item.product.images[0];
                           return (
                             <img
-                              src={'/' + img}
+                              src={img}
                               alt={item.product.name}
                               className="w-full h-full object-cover"
                             />

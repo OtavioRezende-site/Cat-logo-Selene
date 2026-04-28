@@ -50,7 +50,7 @@ export default function Hero({ onSelectProduct }: HeroProps) {
       {/* Image / Gray Area */}
       <div className="w-1/2 h-full bg-[#E5E4E0] border-l border-line flex items-center justify-center overflow-hidden relative">
         <img 
-          src={featuredProduct ? `/${featuredProduct.images[0].startsWith('/') ? featuredProduct.images[0].substring(1) : featuredProduct.images[0]}` : "https://picsum.photos/seed/jewelry-hero-dark/1200/800?grayscale"}
+          src={featuredProduct ? (featuredProduct.images[0].startsWith('/') ? featuredProduct.images[0].substring(1) : featuredProduct.images[0]) : "https://picsum.photos/seed/jewelry-hero-dark/1200/800?grayscale"}
           alt="Editorial"
           className="w-full h-full object-cover object-center md:object-bottom opacity-60 mix-blend-multiply transition-transform duration-1000 group-hover:scale-110"
           referrerPolicy="no-referrer"

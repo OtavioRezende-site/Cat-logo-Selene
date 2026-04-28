@@ -80,7 +80,7 @@ export default function SearchModal({ isOpen, onClose, onSelectProduct }: Search
                           <div className="flex items-center space-x-4">
                             <div className="w-20 aspect-[3/4] overflow-hidden bg-gray-50 border border-gray-100">
                               <img 
-                                src={'/' + product.images[0]} 
+                                src={product.images[0]} 
                                 alt={product.name}
                                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                               />
